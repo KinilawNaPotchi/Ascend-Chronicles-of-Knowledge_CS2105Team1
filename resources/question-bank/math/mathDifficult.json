@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1301,
+    "question": "What is the value of x in 3x + 7 = 25?",
+    "answer": "6"
+  },
+  {
+    "id": 1302,
+    "question": "What is the value of x in x² - 7x + 12 = 0 where x is the smaller root?",
+    "answer": "3"
+  },
+  {
+    "id": 1303,
+    "question": "What is the value of x in 2x² - 18 = 0 where x is positive?",
+    "answer": "3"
+  },
+  {
+    "id": 1304,
+    "question": "What is the determinant of the 2x2 matrix: \n[4, 2, \n3, 5] ?",
+    "answer": "14"
+  },
+  {
+    "id": 1305,
+    "question": "What is the area of the circle with a radius of 6 cm, in terms of π?",
+    "answer": "36πcm²"
+  },
+  {
+    "id": 1306,
+    "question": "What is the volume of a sphere with a radius of 3 cm, in terms of π?",
+    "answer": "36πcm³"
+  },
+  {
+    "id": 1307,
+    "question": "What is the length of the hypotenuse of a right triangle with legs of 8 cm and 15 cm?",
+    "answer": "17 cm"
+  },
+  {
+    "id": 1308,
+    "question": "What is the volume of a cone with a radius of 3 cm and a height of 12 cm, in terms of π?",
+    "answer": "36πcm³"
+  },
+  {
+    "id": 1309,
+    "question": "What is the mean of 12, 18, 24, 30, and 36?",
+    "answer": "24"
+  },
+  {
+    "id": 1310,
+    "question": "What is the probability of rolling a sum of 7 with two fair six-sided dice?",
+    "answer": "1/6"
+  },
+  {
+    "id": 1311,
+    "question": "How many ways can 4 different books be arranged on a shelf?",
+    "answer": "24"
+  },
+  {
+    "id": 1312,
+    "question": "What is the probability of drawing a queen from a standard deck of 52 cards?",
+    "answer": "1/13"
+  },
+  {
+    "id": 1313,
+    "question": "What is the value of cos(2x) when sin(x) = 3/5, cos(x) = 4/5, and x is in the first quadrant?",
+    "answer": "7/25"
+  },
+  {
+    "id": 1314,
+    "question": "What is the value of sin(2x) when sin(x) = 3/5, cos(x) = 4/5, and x is in the first quadrant?",
+    "answer": "24/25"
+  },
+  {
+    "id": 1315,
+    "question": "What is the smallest positive value of x, in degrees, that satisfies sin(x) = √3/2?",
+    "answer": "60°"
+  },
+  {
+    "id": 1316,
+    "question": "What is the value of arctan(1) in degrees?",
+    "answer": "45°"
+  },
+  {
+    "id": 1317,
+    "question": "What is the derivative of f(x) = 4x³ - 5x² + 2x?",
+    "answer": "12x² - 10x =+ 2"
+  },
+  {
+    "id": 1318,
+    "question": "What is the integral of 6x² with respect to x, with a constant of integral equal to zero?",
+    "answer": "2x³"
+  },
+  {
+    "id": 1319,
+    "question": "What is the value of limₓ→₂(x² + 3x)?",
+    "answer": "10"
+  },
+  {
+    "id": 1320,
+    "question": "What is the derivative of f(x) = x³ + 2x at x = 2?",
+    "answer": "14"
+  }
+]
