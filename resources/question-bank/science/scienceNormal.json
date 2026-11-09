@@ -1,0 +1,502 @@
+[
+  {
+    "id": 2201,
+    "question": "A car travels 150 meters in 10 second. What is its average speed?",
+    "choices": [
+      "10 m/s",
+      "15 m/s",
+      "20 m/s"
+    ],
+    "answer": "15 m/s"
+  },
+  {
+    "id": 2202,
+    "question": "What is the acceleration of a car that increases its speed from 10 m/s to 30 m/s in 5 seconds?",
+    "choices": [
+      "2 m/s²",
+      "4 m/s²",
+      "6 m/s²"
+    ],
+    "answer": "4 m/s²"
+  },
+  {
+    "id": 2203,
+    "question": "What is the momentum of a 4 kg object moving at 5 m/s?",
+    "choices": [
+      "9 kg·m/s",
+      "20 kg·m/s",
+      "25 kg·m/s"
+    ],
+    "answer": "20 kg·m/s"
+  },
+  {
+    "id": 2204,
+    "question": "What is the kinetic energy of a 2 kg object moving at 4 m/s?",
+    "choices": [
+      "8 J",
+      "16 J",
+      "32 J"
+    ],
+    "answer": "16 J"
+  },
+  {
+    "id": 2205,
+    "question": "What is the potential energy of a 2 kg object at a height of 5 meters? Use g = 9.8 m/s²",
+    "choices": [
+      "49 J",
+      "98 J",
+      "196 J"
+    ],
+    "answer": "98 J"
+  },
+  {
+    "id": 2206,
+    "question": "What is the work done by a 10 N force moving an object 3 meters in the same direction as the force?",
+    "choices": [
+      "13 J",
+      "30 J",
+      "40 J"
+    ],
+    "answer": "30 J"
+  },
+  {
+    "id": 2207,
+    "question": "What is the net force on a 5 kg object accelerating at 2 m/s²?",
+    "choices": [
+      "10 N",
+      "15 N",
+      "20 N"
+    ],
+    "answer": "10 N"
+  },
+  {
+    "id": 2208,
+    "question": "What is the weight of a 10 kg object on Earth? Use g = 9.8 m/s²",
+    "choices": [
+      "10 N",
+      "49 N",
+      "98 N"
+    ],
+    "answer": "98 N"
+  },
+  {
+    "id": 2209,
+    "question": "What is the pressure exerted by a 100 N force over an area of 5 m²?",
+    "choices": [
+      "20 Pa",
+      "50 Pa",
+      "500 Pa"
+    ],
+    "answer": "20 Pa"
+  },
+  {
+    "id": 2210,
+    "question": "What is the density of an object with a mass of 60 kg and a volume of 3 m³?",
+    "choices": [
+      "10 kg/m³",
+      "20 kg/m³",
+      "30 kg/m³"
+    ],
+    "answer": "20 kg/m³"
+  },
+  {
+    "id": 2211,
+    "question": "What is the current through a 6 Ω resistor connected to a 12 V source?",
+    "choices": [
+      "2 A",
+      "3 A",
+      "6 A"
+    ],
+    "answer": "2 A"
+  },
+  {
+    "id": 2212,
+    "question": "What is the resistance of a device that uses 24 V and carries 3 A?",
+    "choices": [
+      "6 Ω",
+      "8 Ω",
+      "12 Ω"
+    ],
+    "answer": "8 Ω"
+  },
+  {
+    "id": 2213,
+    "question": "What is the electrical power of a device connected to 12 V and carrying 2 A?",
+    "choices": [
+      "6 W",
+      "14 W",
+      "24 W"
+    ],
+    "answer": "24 W"
+  },
+  {
+    "id": 2214,
+    "question": "What is the frequency of a wave with a period of 0.5 seconds?",
+    "choices": [
+      "0.5 Hz",
+      "2 Hz",
+      "5 Hz"
+    ],
+    "answer": "2 Hz"
+  },
+  {
+    "id": 2215,
+    "question": "A wave has a frequency of 4 Hz and a wavelength of 3 meters. What is its speed?",
+    "choices": [
+      "7 m/s",
+      "12 m/s",
+      "24 m/s"
+    ],
+    "answer": "12 m/s"
+  },
+  {
+    "id": 2216,
+    "question": "What is the force needed to accelerate a 2 kg object at 5 m/s²?",
+    "choices": [
+      "10 N",
+      "15 N",
+      "20 N"
+    ],
+    "answer": "15 N"
+  },
+  {
+    "id": 2217,
+    "question": "What is the efficiency of a machine that produces 80 J of useful energy from 100 J of input energy?",
+    "choices": [
+      "0.2",
+      "0.8",
+      "1"
+    ],
+    "answer": "0.8"
+  },
+  {
+    "id": 2218,
+    "question": "How many moles are in 36 grams of water? Use a molar mass of 18 g/mol.",
+    "choices": [
+      "1 mol",
+      "2 mol",
+      "3 mol"
+    ],
+    "answer": "2 mol"
+  },
+  {
+    "id": 2219,
+    "question": "How many molecules are in 1 mole of a substance?",
+    "choices": [
+      "6.022 x10²³",
+      "3.011 x10²³",
+      "1.00 x 10²³"
+    ],
+    "answer": "6.022 x10²³"
+  },
+  {
+    "id": 2220,
+    "question": "What is the molar mass of carbon dioxide?",
+    "choices": [
+      "28 g/mol",
+      "32 g/mol",
+      "44 g/mol"
+    ],
+    "answer": "44 g/mol"
+  },
+  {
+    "id": 2221,
+    "question": "What is the oxidation number of oxygen in water?",
+    "choices": [
+      "-2",
+      "=1",
+      "2"
+    ],
+    "answer": "-2"
+  },
+  {
+    "id": 2222,
+    "question": "What is the oxidation number of sodium in NaCl?",
+    "choices": [
+      "-1",
+      "1",
+      "2"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 2223,
+    "question": "What is the pH of a solution with a hydrogen ion concentration of 10⁻⁵ M?",
+    "choices": [
+      "5",
+      "7",
+      "9"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 2224,
+    "question": "What type of reaction occurs when an acid reacts with a base to form salt and water?",
+    "choices": [
+      "Combustion",
+      "Neutralization",
+      "Decomposition"
+    ],
+    "answer": "Neutralization"
+  },
+  {
+    "id": 2225,
+    "question": "What is the coefficient of oxygen when this equation is balanced: \nH₂ + O₂ → H₂O",
+    "choices": [
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 2226,
+    "question": "What is the number of protons in an atom with atomic number 11?",
+    "choices": [
+      "11",
+      "22",
+      "33"
+    ],
+    "answer": "11"
+  },
+  {
+    "id": 2227,
+    "question": "What is the number of neutrons in carbon-14?",
+    "choices": [
+      "6",
+      "8",
+      "14"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 2228,
+    "question": "What type of bond forms between sodium and chlorine in NaCl?",
+    "choices": [
+      "Covalent",
+      "Ionic",
+      "Metallic"
+    ],
+    "answer": "Ionic"
+  },
+  {
+    "id": 2229,
+    "question": "What is the molarity of a solution containing 2 moles of solute in 4 liters of solution?",
+    "choices": [
+      "0.5 M",
+      "2 M",
+      "8 M"
+    ],
+    "answer": "0.5 M"
+  },
+  {
+    "id": 2230,
+    "question": "What is the mass of 2 moles of carbon dioxide? Use a molar mass of 44 g/mol.",
+    "choices": [
+      "44 g",
+      "66 g",
+      "88 g"
+    ],
+    "answer": "88 g"
+  },
+  {
+    "id": 2231,
+    "question": "What is the chemical formula for calcium carbonate?",
+    "choices": [
+      "CaCO₃",
+      "CaCl₂",
+      "CaO"
+    ],
+    "answer": "CaCO₃"
+  },
+  {
+    "id": 2232,
+    "question": "What is the pH of a neutral solution at 25°C?",
+    "choices": [
+      "0",
+      "7",
+      "14"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 2233,
+    "question": "What is the mass of 0.5 moles of sodium chloride? Use a molar mass of 58.5 g/mol.",
+    "choices": [
+      "29.25 g",
+      "58.5 g",
+      "117 g"
+    ],
+    "answer": "29.25 g"
+  },
+  {
+    "id": 2234,
+    "question": "What is the coefficient of water when this equation is balanced:\nCH₄ + O₂ → CO₂ + H₂O",
+    "choices": [
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": 2235,
+    "question": "What is the main function of DNA?",
+    "choices": [
+      "Store genetic information",
+      "Produce ATP",
+      "Digest Proteins"
+    ],
+    "answer": "Store genetic information"
+  },
+  {
+    "id": 2236,
+    "question": "Which organelle modifies and packages proteins?",
+    "choices": [
+      "Ribosome",
+      "Golgi Apparatus",
+      "Mitochondrion"
+    ],
+    "answer": "Golgi Apparatus"
+  },
+  {
+    "id": 2237,
+    "question": "What is the main function of chlorophyll?",
+    "choices": [
+      "Absorb light energy",
+      "Store water",
+      "Break down proteins"
+    ],
+    "answer": "Absorb light energy"
+  },
+  {
+    "id": 2238,
+    "question": "What is the main product of cellular respiration?",
+    "choices": [
+      "ATP",
+      "DNA",
+      "Oxygen"
+    ],
+    "answer": "ATP"
+  },
+  {
+    "id": 2239,
+    "question": "Which molecule carries amino acids to the ribosome during protein synthesis?",
+    "choices": [
+      "DNA",
+      "tRNA",
+      "ATP"
+    ],
+    "answer": "tRNA"
+  },
+  {
+    "id": 2240,
+    "question": "What is the main function of the cell membrane?",
+    "choices": [
+      "Control what enters and leaves the cell",
+      "Produce proteins",
+      "Store genetic information"
+    ],
+    "answer": "Control what enters and leaves the cell"
+  },
+  {
+    "id": 2241,
+    "question": "Which blood type is the universal red blood cell donor when Rh factor is included?",
+    "choices": [
+      "AB positive",
+      "O negative",
+      "A positive"
+    ],
+    "answer": "O negative"
+  },
+  {
+    "id": 2242,
+    "question": "Which organ produces insulin?",
+    "choices": [
+      "Liver",
+      "Pancreas",
+      "Kidney"
+    ],
+    "answer": "Pancreas"
+  },
+  {
+    "id": 2243,
+    "question": "What is the main function of the small intestine?",
+    "choices": [
+      "Absorb nutrients",
+      "Pump blood",
+      "Produce urine"
+    ],
+    "answer": "Absorb nutrients"
+  },
+  {
+    "id": 2244,
+    "question": "Which part of the brain controls breathing and heart rate?",
+    "choices": [
+      "Cerebellum",
+      "Cerebrum",
+      "Medulla oblongata"
+    ],
+    "answer": "Medulla oblongata"
+  },
+  {
+    "id": 2245,
+    "question": "What is the main function of the alveoli in the lungs?",
+    "choices": [
+      "Filter blood",
+      "Exchange gases",
+      "Produce mucus"
+    ],
+    "answer": "Exchange gases"
+  },
+  {
+    "id": 2246,
+    "question": "What is the name of the process that produces sex cells?",
+    "choices": [
+      "Mitosis",
+      "Meiosis",
+      "Binary fission"
+    ],
+    "answer": "Meiosis"
+  },
+  {
+    "id": 2247,
+    "question": "What is the main function of enzymes?",
+    "choices": [
+      "Speed up chemical reactions",
+      "Store genetic information",
+      "Transport oxygen"
+    ],
+    "answer": "Speed up chemical reactions"
+  },
+  {
+    "id": 2248,
+    "question": "Which molecule is the main energy currency of the cell?",
+    "choices": [
+      "DNA",
+      "ATP",
+      "RNA"
+    ],
+    "answer": "ATP"
+  },
+  {
+    "id": 2249,
+    "question": "What is the name of the process by which water moves across a selectively permeable membrane?",
+    "choices": [
+      "Diffusion",
+      "Osmosis",
+      "Active transport"
+    ],
+    "answer": "Osmosis"
+  },
+  {
+    "id": 2250,
+    "question": "What is the main function of platelets?",
+    "choices": [
+      "Carry oxygen",
+      "Fight infection",
+      "Help blood clot"
+    ],
+    "answer": "Help blood clot"
+  }
+]

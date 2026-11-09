@@ -1,0 +1,102 @@
+[
+  {
+    "id": 2301,
+    "question": "A 5 kg object accelerates at 4 m/s². What is the net force acting on it?",
+    "answer": "20 N"
+  },
+  {
+    "id": 2302,
+    "question": "A 2 kg object moves at 10 m/s. What is its kinetic energy?",
+    "answer": "100 J"
+  },
+  {
+    "id": 2303,
+    "question": "A 12 V battery is connected to a 4 Ω resistor. What is the current?",
+    "answer": "3 A"
+  },
+  {
+    "id": 2304,
+    "question": "A wave has a frequency of 5 Hz and a wavelength of 8 meters. What is its speed?",
+    "answer": "40 m/s"
+  },
+  {
+    "id": 2305,
+    "question": "A 10 kg object is lifted 3 meters. What is its gravitational potential energy? Use g = 9.8 m/s²",
+    "answer": "294 J"
+  },
+  {
+    "id": 2306,
+    "question": "A 20 N force moves an object 5 meters in the same direction as the force. How much work is done?",
+    "answer": "100 J"
+  },
+  {
+    "id": 2307,
+    "question": "A 2 kg object moving at 6 m/s collides with a stationary 4 kg object. They stick together. What is their final velocity?",
+    "answer": "2 m/s"
+  },
+  {
+    "id": 2308,
+    "question": "How many moles are in 90 grams of water? Use a molar mass of 18 g/mol.",
+    "answer": "5 mol"
+  },
+  {
+    "id": 2309,
+    "question": "What is the molarity of a solution containing 3 moles of solute in 2 liters of solution?",
+    "answer": "1.5 M"
+  },
+  {
+    "id": 2310,
+    "question": "What is the pH of a solution with a hydrogen ion concentration of 10⁻⁴ M?",
+    "answer": "4"
+  },
+  {
+    "id": 2311,
+    "question": "What is the mass of 2 moles of sodium chloride? Use a molar mass of 58.5 g/mol.",
+    "answer": "117 g"
+  },
+  {
+    "id": 2312,
+    "question": "How many atoms are in 2 moles of helium? Use Avogadro's number of 6.022 x10²³.",
+    "answer": "1.2044 x10²⁴ atoms"
+  },
+  {
+    "id": 2313,
+    "question": "What is the coefficient of oxygen in the balanced equation below?\n2H₂ + O₂ → 2H₂O",
+    "answer": "1"
+  },
+  {
+    "id": 2314,
+    "question": "What is the oxidation number of sulfur in H₂SO₄?",
+    "answer": "6"
+  },
+  {
+    "id": 2315,
+    "question": "How many chromosomes are in a normal human somatic cell?",
+    "answer": "46"
+  },
+  {
+    "id": 2316,
+    "question": "How many chromosomes are in a normal human gamete?",
+    "answer": "23"
+  },
+  {
+    "id": 2317,
+    "question": "How many ATP molecules are produced directly by glycolysis per glucose molecule?",
+    "answer": "2 ATP"
+  },
+  {
+    "id": 2318,
+    "question": "How many amino acids are encoded by the mRNA sequence AUG-GCU-AAA-UAA?",
+    "answer": "3"
+  },
+  {
+    "id": 2319,
+    "question": "What is the number of hydrogen bonds between adenine and thymine in DNA?",
+    "answer": "2"
+  },
+  {
+    "id": 2320,
+    "question": "How many daughter cells are produced by one parent cell after meiosis?",
+    "answer": "4"
+  }
+]
