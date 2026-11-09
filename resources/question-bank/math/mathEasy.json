@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1101,
+    "question": "What is the value of x in x + 5 = 12?",
+    "choices": [
+      "5",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 1102,
+    "question": "What is the value of x in 2x = 18?",
+    "choices": [
+      "9",
+      "8",
+      "6"
+    ],
+    "answer": "9"
+  },
+  {
+    "id": 1103,
+    "question": "What is the value of x in 3x + 2 = 14?",
+    "choices": [
+      "3",
+      "5",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": 1104,
+    "question": "What is the value of x in x - 8 = 10?",
+    "choices": [
+      "16",
+      "18",
+      "20"
+    ],
+    "answer": "18"
+  },
+  {
+    "id": 1105,
+    "question": "What is the value of x in 5x = 45?",
+    "choices": [
+      "9",
+      "6",
+      "8"
+    ],
+    "answer": "9"
+  },
+  {
+    "id": 1106,
+    "question": "What is the value of x in x/4 = 6?",
+    "choices": [
+      "20",
+      "24",
+      "28"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": 1107,
+    "question": "What is the value of 2x + 3 when x = 4?",
+    "choices": [
+      "11",
+      "10",
+      "12"
+    ],
+    "answer": "11"
+  },
+  {
+    "id": 1108,
+    "question": "What is the value of x² when x = 5?",
+    "choices": [
+      "10",
+      "20",
+      "25"
+    ],
+    "answer": "25"
+  },
+  {
+    "id": 1109,
+    "question": "What is the value of 3²?",
+    "choices": [
+      "6",
+      "9",
+      "12"
+    ],
+    "answer": "9"
+  },
+  {
+    "id": 1110,
+    "question": "What is the value of 2³?",
+    "choices": [
+      "8",
+      "6",
+      "4"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 1111,
+    "question": "What is the area of a square with a side of 4 cm?",
+    "choices": [
+      "12 cm²",
+      "16 cm²",
+      "20 cm²"
+    ],
+    "answer": "16 cm²"
+  },
+  {
+    "id": 1112,
+    "question": "What is the perimeter of a square with a side of 5 cm?",
+    "choices": [
+      "20 cm",
+      "15 cm",
+      "25 cm"
+    ],
+    "answer": "20 cm"
+  },
+  {
+    "id": 1113,
+    "question": "What is the area of a rectangle with a length of 6 cm and a width of 3 cm?",
+    "choices": [
+      "9 cm²",
+      "12 cm²",
+      "18 cm²"
+    ],
+    "answer": "18 cm²"
+  },
+  {
+    "id": 1114,
+    "question": "What is the perimeter of a rectangle with a length of 8 cm and a width of 2 cm?",
+    "choices": [
+      "20 cm",
+      "16 cm",
+      "10 cm"
+    ],
+    "answer": "20 cm"
+  },
+  {
+    "id": 1115,
+    "question": "What is the area of a triangle with a base of 10 cm and a height of 4 cm?",
+    "choices": [
+      "40 cm²",
+      "20 cm²",
+      "14 cm²"
+    ],
+    "answer": "20 cm²"
+  },
+  {
+    "id": 1116,
+    "question": "What is the sum of the interior angles of a triangle?",
+    "choices": [
+      "180°",
+      "90°",
+      "360°"
+    ],
+    "answer": "180°"
+  },
+  {
+    "id": 1117,
+    "question": "How many degrees are in a right angle?",
+    "choices": [
+      "45°",
+      "90°",
+      "180°"
+    ],
+    "answer": "90°"
+  },
+  {
+    "id": 1118,
+    "question": "What is the diameter of a circle with a radius of 7 cm?",
+    "choices": [
+      "14 cm",
+      "21 cm",
+      "28 cm"
+    ],
+    "answer": "14 cm"
+  },
+  {
+    "id": 1119,
+    "question": "What is the circumference of a circle with a radius of 2 cm?",
+    "choices": [
+      "2π cm",
+      "8π cm",
+      "4π cm"
+    ],
+    "answer": "4π cm"
+  },
+  {
+    "id": 1120,
+    "question": "What is the volume of a cube with a side of 3 cm?",
+    "choices": [
+      "9 cm³",
+      "27 cm³",
+      "18 cm³"
+    ],
+    "answer": "27 cm³"
+  },
+  {
+    "id": 1121,
+    "question": "What is the mean of 2, 4, and 6?",
+    "choices": [
+      "4",
+      "6",
+      "3"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": 1122,
+    "question": "What is the median of 3, 5, and 7?",
+    "choices": [
+      "3",
+      "5",
+      "7"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 1123,
+    "question": "What is the mode of 2, 3, 3, and 5?",
+    "choices": [
+      "2",
+      "5",
+      "3"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 1124,
+    "question": "What is the range of 4, 8, and 10?",
+    "choices": [
+      "6",
+      "8",
+      "14"
+    ],
+    "answer": "6"
+  },
+  {
+    "id": 1125,
+    "question": "What is the probability of getting heads when flipping a fair coin?",
+    "choices": [
+      "1/4",
+      "1/2",
+      "1"
+    ],
+    "answer": "1/2"
+  },
+  {
+    "id": 1126,
+    "question": "What is the probability of rolling a 6 on a fair six-sided die?",
+    "choices": [
+      "1/6",
+      "1/3",
+      "1/2"
+    ],
+    "answer": "1/6"
+  },
+  {
+    "id": 1127,
+    "question": "What is the probability of rolling an even number on a fair six-sided die?",
+    "choices": [
+      "1/6",
+      "1/2",
+      "2/3"
+    ],
+    "answer": "1/2"
+  },
+  {
+    "id": 1128,
+    "question": "How many possible outcomes are there when flipping two coins?",
+    "choices": [
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": 1129,
+    "question": "What is the probability of getting two heads when flipping two fair coins?",
+    "choices": [
+      "1/4",
+      "1/2",
+      "3/4"
+    ],
+    "answer": "1/4"
+  },
+  {
+    "id": 1130,
+    "question": "What is the sum of the probabilities of all possible outcomes?",
+    "choices": [
+      "0",
+      "1",
+      "2"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 1131,
+    "question": "What is the value of sin 30°?",
+    "choices": [
+      "1",
+      "1/2",
+      "0"
+    ],
+    "answer": "1/2"
+  },
+  {
+    "id": 1132,
+    "question": "What is the value of cos 60°?",
+    "choices": [
+      "1/2",
+      "0",
+      "1"
+    ],
+    "answer": "1/2"
+  },
+  {
+    "id": 1133,
+    "question": "What is the value of tan 45°?",
+    "choices": [
+      "0",
+      "2",
+      "1"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 1134,
+    "question": "What is the value of sin 90°?",
+    "choices": [
+      "1",
+      "0",
+      "1/2"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 1135,
+    "question": "What is the value of cos 0°?",
+    "choices": [
+      "0",
+      "1",
+      "-1"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 1136,
+    "question": "How many degrees are in a straight angle?",
+    "choices": [
+      "90°",
+      "180°",
+      "360°"
+    ],
+    "answer": "180°"
+  },
+  {
+    "id": 1137,
+    "question": "What is the value of tan 0°?",
+    "choices": [
+      "0",
+      "1",
+      "undefined"
+    ],
+    "answer": "0"
+  },
+  {
+    "id": 1138,
+    "question": "What is the hypotenuse of a right triangle with legs of 3 and 4?",
+    "choices": [
+      "6",
+      "5",
+      "7"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 1139,
+    "question": "What is the value of sin 45°?",
+    "choices": [
+      "√2/2",
+      "1",
+      "1/2"
+    ],
+    "answer": "√2/2"
+  },
+  {
+    "id": 1140,
+    "question": "What is the value of cos 90°?",
+    "choices": [
+      "1",
+      "1/2",
+      "0"
+    ],
+    "answer": "0"
+  },
+  {
+    "id": 1141,
+    "question": "What is the derivative of x²?",
+    "choices": [
+      "2x",
+      "x",
+      "x³"
+    ],
+    "answer": "2x"
+  },
+  {
+    "id": 1142,
+    "question": "What is the derivative of x³?",
+    "choices": [
+      "x²",
+      "3x²",
+      "3x"
+    ],
+    "answer": "3x²"
+  },
+  {
+    "id": 1143,
+    "question": "What is the derivative of 5x?",
+    "choices": [
+      "5",
+      "5x²",
+      "x"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 1144,
+    "question": "What is the derivative of a constant?",
+    "choices": [
+      "1",
+      "constant itself",
+      "0"
+    ],
+    "answer": "0"
+  },
+  {
+    "id": 1145,
+    "question": "What is the derivative of x⁴?",
+    "choices": [
+      "4x³",
+      "x³",
+      "4x"
+    ],
+    "answer": "4x³"
+  },
+  {
+    "id": 1146,
+    "question": "What is the integral of 1 with respect to x?",
+    "choices": [
+      "0",
+      "x + C",
+      "1 + C"
+    ],
+    "answer": "x + C"
+  },
+  {
+    "id": 1147,
+    "question": "What is the integral of 2x with respect to x?",
+    "choices": [
+      "x² + C",
+      "2x² + C",
+      "2 + C"
+    ],
+    "answer": "x² + C"
+  },
+  {
+    "id": 1148,
+    "question": "What is the derivative of 3x² + 2?",
+    "choices": [
+      "3x",
+      "6x",
+      "6x + 2"
+    ],
+    "answer": "6x"
+  },
+  {
+    "id": 1149,
+    "question": "What is the slope of the line y = 2x + 3?",
+    "choices": [
+      "2",
+      "3",
+      "5"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": 1150,
+    "question": "What is the value of limₓ→₂ x²",
+    "choices": [
+      "2",
+      "8",
+      "4"
+    ],
+    "answer": "4"
+  }
+]
