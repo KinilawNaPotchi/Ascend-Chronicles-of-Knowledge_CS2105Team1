@@ -1,0 +1,502 @@
+[
+  {
+    "id": 3101,
+    "question": "What command creates a new Git repository?",
+    "choices": [
+      "git start",
+      "git init",
+      "git create"
+    ],
+    "answer": "git init"
+  },
+  {
+    "id": 3102,
+    "question": "What command downloads a remote repository?",
+    "choices": [
+      "git clone",
+      "git copy",
+      "git pull"
+    ],
+    "answer": "git clone"
+  },
+  {
+    "id": 3103,
+    "question": "What command shows the current state of a Git repository?",
+    "choices": [
+      "git check",
+      "git status",
+      "git pull"
+    ],
+    "answer": "git status"
+  },
+  {
+    "id": 3104,
+    "question": "What command stages all modified files?",
+    "choices": [
+      "git add .",
+      "git commit .",
+      "git push ."
+    ],
+    "answer": "git add ."
+  },
+  {
+    "id": 3105,
+    "question": "What command saves staged changes in Git?",
+    "choices": [
+      "git save",
+      "git commit",
+      "git upload"
+    ],
+    "answer": "git commit"
+  },
+  {
+    "id": 3106,
+    "question": "What command sends local commits to a remote repository?",
+    "choices": [
+      "git push",
+      "git fetch",
+      "git status"
+    ],
+    "answer": "git push"
+  },
+  {
+    "id": 3107,
+    "question": "What command downloads changes and merges them into the current branch?",
+    "choices": [
+      "git clone",
+      "git pull",
+      "git add"
+    ],
+    "answer": "git pull"
+  },
+  {
+    "id": 3108,
+    "question": "What command displays the commit history?",
+    "choices": [
+      "git history",
+      "git log",
+      "git list"
+    ],
+    "answer": "git log"
+  },
+  {
+    "id": 3109,
+    "question": "What command creates a new branch named feature?",
+    "choices": [
+      "git branch feature",
+      "git new feature",
+      "git commit feature"
+    ],
+    "answer": "git branch feature"
+  },
+  {
+    "id": 3110,
+    "question": "What command switches to the main branch?",
+    "choices": [
+      "git switch main",
+      "git move main",
+      "git branch main"
+    ],
+    "answer": "git switch main"
+  },
+  {
+    "id": 3111,
+    "question": "Which keyword declares an integer variable?",
+    "choices": [
+      "int",
+      "integer",
+      "number"
+    ],
+    "answer": "int"
+  },
+  {
+    "id": 3112,
+    "question": "Which symbol ends a Java statement?",
+    "choices": [
+      ":",
+      ";",
+      ","
+    ],
+    "answer": ";"
+  },
+  {
+    "id": 3113,
+    "question": "In Python, which function is used to display output?",
+    "choices": [
+      "echo()",
+      "print()",
+      "display()"
+    ],
+    "answer": "print()"
+  },
+  {
+    "id": 3114,
+    "question": "In C++, which command is commonly used to display output?",
+    "choices": [
+      "print",
+      "cout",
+      "output"
+    ],
+    "answer": "cout"
+  },
+  {
+    "id": 3115,
+    "question": "In Java,which keyword prints text to the console?",
+    "choices": [
+      "System.out.println()",
+      "Console.print()",
+      "Print.line()"
+    ],
+    "answer": "System.out.println()"
+  },
+  {
+    "id": 3116,
+    "question": "In JavaScript, which keyword declares a variable that cannot be reassigned?",
+    "choices": [
+      "let",
+      "const",
+      "var"
+    ],
+    "answer": "const"
+  },
+  {
+    "id": 3117,
+    "question": "Which data type represents whole numbers in Python?",
+    "choices": [
+      "int",
+      "float",
+      "str"
+    ],
+    "answer": "int"
+  },
+  {
+    "id": 3118,
+    "question": "Which symbol is commonly used for assignment in programming?",
+    "choices": [
+      "==",
+      "=",
+      "!="
+    ],
+    "answer": "="
+  },
+  {
+    "id": 3119,
+    "question": "In Python, which symbol starts a single-line comment?",
+    "choices": [
+      "#",
+      "//",
+      "/*"
+    ],
+    "answer": "#"
+  },
+  {
+    "id": 3120,
+    "question": "Which statement is used to make a decision in most programming language?",
+    "choices": [
+      "loop",
+      "if",
+      "print"
+    ],
+    "answer": "if"
+  },
+  {
+    "id": 3121,
+    "question": "In Java, which data type stores true or false?",
+    "choices": [
+      "int",
+      "char",
+      "boolean"
+    ],
+    "answer": "boolean"
+  },
+  {
+    "id": 3122,
+    "question": "Which loop is commonly used when the number of repetitions is known?",
+    "choices": [
+      "for",
+      "if",
+      "while"
+    ],
+    "answer": "for"
+  },
+  {
+    "id": 3123,
+    "question": "Which keyword is used to exit a loop immediately?",
+    "choices": [
+      "stop",
+      "break",
+      "end"
+    ],
+    "answer": "break"
+  },
+  {
+    "id": 3124,
+    "question": "In C++, which header is commonly included for input and output operations?",
+    "choices": [
+      "iostream",
+      "string",
+      "math"
+    ],
+    "answer": "iostream"
+  },
+  {
+    "id": 3125,
+    "question": "In JavaScript, which keyword is used to define a function?",
+    "choices": [
+      "function",
+      "def",
+      "method"
+    ],
+    "answer": "function"
+  },
+  {
+    "id": 3126,
+    "question": "What is a class in Java?",
+    "choices": [
+      "A blueprint for objects",
+      "A loop",
+      "A data type for numbers"
+    ],
+    "answer": "A blueprint for objects"
+  },
+  {
+    "id": 3127,
+    "question": "What is an object?",
+    "choices": [
+      "An instance of a class",
+      "A method",
+      "A variable type"
+    ],
+    "answer": "An instance of a class"
+  },
+  {
+    "id": 3128,
+    "question": "What is a constructor used for?",
+    "choices": [
+      "Initialize an object",
+      "Delete a class",
+      "Repeat a loop"
+    ],
+    "answer": "Initialize an object"
+  },
+  {
+    "id": 3129,
+    "question": "Which keyword refers to the current object?",
+    "choices": [
+      "super",
+      "this",
+      "self"
+    ],
+    "answer": "this"
+  },
+  {
+    "id": 3130,
+    "question": "Which keyword allows a class to inherit from another class?",
+    "choices": [
+      "extends",
+      "implements",
+      "inherits"
+    ],
+    "answer": "extends"
+  },
+  {
+    "id": 3131,
+    "question": "What is encapsulation?",
+    "choices": [
+      "Combining data and methods in a class",
+      "Repeating a method",
+      "Creating multiple loops"
+    ],
+    "answer": "Combining data and methods in a class"
+  },
+  {
+    "id": 3132,
+    "question": "Which access modifier allows access only within the same class?",
+    "choices": [
+      "public",
+      "private",
+      "protected"
+    ],
+    "answer": "private"
+  },
+  {
+    "id": 3133,
+    "question": "What is method overloading?",
+    "choices": [
+      "Methods with the same name but different parameter lists",
+      "Deleting a method",
+      "Calling a method once"
+    ],
+    "answer": "Methods with the same name but different parameter lists"
+  },
+  {
+    "id": 3134,
+    "question": "What is method overriding?",
+    "choices": [
+      "Defining a subclass version of an inherited method",
+      "Creating a new variable",
+      "Calling two methods at once"
+    ],
+    "answer": "Defining a subclass version of an inherited method"
+  },
+  {
+    "id": 3135,
+    "question": "Which keyword prevents a class from being inherited?",
+    "choices": [
+      "static",
+      "final",
+      "private"
+    ],
+    "answer": "final"
+  },
+  {
+    "id": 3136,
+    "question": "Which keyword refers to a parent class?",
+    "choices": [
+      "this",
+      "super",
+      "parent"
+    ],
+    "answer": "super"
+  },
+  {
+    "id": 3137,
+    "question": "What is polymorphism?",
+    "choices": [
+      "One interface with different implementations",
+      "One class with no methods",
+      "One variable with no value"
+    ],
+    "answer": "One interface with different implementations"
+  },
+  {
+    "id": 3138,
+    "question": "Which data structure follows Last In, First Out?",
+    "choices": [
+      "Queue",
+      "Stack",
+      "Array"
+    ],
+    "answer": "Stack"
+  },
+  {
+    "id": 3139,
+    "question": "Which data structure follows First In, First Out?",
+    "choices": [
+      "Queue",
+      "Stack",
+      "Tree"
+    ],
+    "answer": "Queue"
+  },
+  {
+    "id": 3140,
+    "question": "Which data structure stores elements in indexed positions?",
+    "choices": [
+      "Array",
+      "Graph",
+      "Stack"
+    ],
+    "answer": "Array"
+  },
+  {
+    "id": 3141,
+    "question": "Which operation adds an element to the top of a stack?",
+    "choices": [
+      "pop",
+      "push",
+      "peek"
+    ],
+    "answer": "push"
+  },
+  {
+    "id": 3142,
+    "question": "Which operation removes the top element of a stack?",
+    "choices": [
+      "push",
+      "peek",
+      "pop"
+    ],
+    "answer": "pop"
+  },
+  {
+    "id": 3143,
+    "question": "Which operation adds an element to a queue?",
+    "choices": [
+      "enqueue",
+      "dequeue",
+      "pop"
+    ],
+    "answer": "enqueue"
+  },
+  {
+    "id": 3144,
+    "question": "Which operation removes the front element of a queue?",
+    "choices": [
+      "push",
+      "dequeue",
+      "enqueue"
+    ],
+    "answer": "dequeue"
+  },
+  {
+    "id": 3145,
+    "question": "Which algorithm finds an item by checking elements one by one?",
+    "choices": [
+      "Binary search",
+      "Linear search",
+      "Merge sort"
+    ],
+    "answer": "Linear search"
+  },
+  {
+    "id": 3146,
+    "question": "Which search algorithm requires sorted data?",
+    "choices": [
+      "Linear search",
+      "Binary search",
+      "Merge sort"
+    ],
+    "answer": "Binary search"
+  },
+  {
+    "id": 3147,
+    "question": "Which sorting algorithm repeatedly compares adjacent elements?",
+    "choices": [
+      "Bubble sort",
+      "Binary search",
+      "Linear Search"
+    ],
+    "answer": "Bubble sort"
+  },
+  {
+    "id": 3148,
+    "question": "What is the time complexity of accessing an array element by index?",
+    "choices": [
+      "O(1)",
+      "O(n)",
+      "O(n)²"
+    ],
+    "answer": "O(1)"
+  },
+  {
+    "id": 3149,
+    "question": "Which data structure stores elements in nodes connected by links?",
+    "choices": [
+      "Array",
+      "Linked list",
+      "Stack"
+    ],
+    "answer": "Linked list"
+  },
+  {
+    "id": 3150,
+    "question": "Which data structure represents relationships using vertices and edges?",
+    "choices": [
+      "Graph",
+      "Queue",
+      "Stack"
+    ],
+    "answer": "Graph"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "id": 3201,
+    "question": "What command stages a file named Game.java?",
+    "choices": [
+      "git commit Game.java",
+      "git push Game.java",
+      "git add Game.java"
+    ],
+    "answer": "git add Game.java"
+  },
+  {
+    "id": 3202,
+    "question": "What command creates a commit with the message \"Add player\"?",
+    "choices": [
+      "git commit -m \"Add player\"",
+      "git push -m \"Add player\"",
+      "git add -m \"Add player\""
+    ],
+    "answer": "git commit -m \"Add player\""
+  },
+  {
+    "id": 3203,
+    "question": "What command lists all local branches?",
+    "choices": [
+      "git branch",
+      "git status",
+      "git log"
+    ],
+    "answer": "git branch"
+  },
+  {
+    "id": 3204,
+    "question": "What command merges the feature branch into the current branch?",
+    "choices": [
+      "git switch feature",
+      "git push feature",
+      "git merge feature"
+    ],
+    "answer": "git merge feature"
+  },
+  {
+    "id": 3205,
+    "question": "What command downloads remote changes without merging them?",
+    "choices": [
+      "git pull",
+      "git fetch",
+      "git clone"
+    ],
+    "answer": "git fetch"
+  },
+  {
+    "id": 3206,
+    "question": "What command shows the changes between the working directory and the staging area?",
+    "choices": [
+      "git diff",
+      "git log",
+      "git branch"
+    ],
+    "answer": "git diff"
+  },
+  {
+    "id": 3207,
+    "question": "What command removes a file from the working directory and stages its deletion?",
+    "choices": [
+      "git delete",
+      "git rm",
+      "git remove"
+    ],
+    "answer": "git rm"
+  },
+  {
+    "id": 3208,
+    "question": "What command renames a tracked file?",
+    "choices": [
+      "git rename",
+      "git mv",
+      "git change"
+    ],
+    "answer": "git mv"
+  },
+  {
+    "id": 3209,
+    "question": "What command creates and switches to a new branch named dev?",
+    "choices": [
+      "git switch -c dev",
+      "git branch dev",
+      "git checkout dev"
+    ],
+    "answer": "git switch -c dev"
+  },
+  {
+    "id": 3210,
+    "question": "What command sends the local dev branch to the remote repository for the first time?",
+    "choices": [
+      "git fetch origin dev",
+      "git pull origin dev",
+      "git push -u origin dev"
+    ],
+    "answer": "git push -u origin dev"
+  },
+  {
+    "id": 3211,
+    "question": "What command shows the remote repositories connected to the project?",
+    "choices": [
+      "git remote -v",
+      "git branch -v",
+      "git status -v"
+    ],
+    "answer": "git remote -v"
+  },
+  {
+    "id": 3212,
+    "question": "What command applies the latest commit from another branch without merging all its history?",
+    "choices": [
+      "git cherry-pick",
+      "git clone",
+      "git reset"
+    ],
+    "answer": "git cherry-pick"
+  },
+  {
+    "id": 3213,
+    "question": "What command temporarily saves uncommitted changes?",
+    "choices": [
+      "git save",
+      "git stash",
+      "git store"
+    ],
+    "answer": "git stash"
+  },
+  {
+    "id": 3214,
+    "question": "What is the output of System.out.println(5 + 3 * 2);?",
+    "choices": [
+      "16",
+      "11",
+      "13"
+    ],
+    "answer": "11"
+  },
+  {
+    "id": 3215,
+    "question": "What is the output of this Python code?\nx = 15\ny = 4\nprint(x % y)",
+    "choices": [
+      "3.75",
+      "4",
+      "3"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 3216,
+    "question": "In Java, which keyword prevents a variable from being reassigned after initialization?",
+    "choices": [
+      "final",
+      "static",
+      "private"
+    ],
+    "answer": "final"
+  },
+  {
+    "id": 3217,
+    "question": "What is the output of this JavaScript code?\nlet x = 5;\nx += 3;\nconsole.log(x);",
+    "choices": [
+      "5",
+      "15",
+      "8"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 3218,
+    "question": "In C++, which operator is used to access a member of an object through a pointer?",
+    "choices": [
+      ".",
+      "->",
+      ": :"
+    ],
+    "answer": "->"
+  },
+  {
+    "id": 3219,
+    "question": "What is the purpose of the elif in Python?",
+    "choices": [
+      "To check another condition if the previous one is false",
+      "To define a function",
+      "To terminate a program"
+    ],
+    "answer": "To check another condition if the previous one is false"
+  },
+  {
+    "id": 3220,
+    "question": "What is the output of this Python code?\nnumbers = [2, 4, 6, 8]\nprint(numbers[2])",
+    "choices": [
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "6"
+  },
+  {
+    "id": 3221,
+    "question": "In Java, which access modifier allows a member to be accessed only within its own class?",
+    "choices": [
+      "public",
+      "protected",
+      "private"
+    ],
+    "answer": "private"
+  },
+  {
+    "id": 3222,
+    "question": "What is the output of this C++ expression?\nint x = 10;\ncout << x / 3;",
+    "choices": [
+      "3",
+      "3.33",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 3223,
+    "question": "Which Python operator is used for exponentiation?",
+    "choices": [
+      "^",
+      "**",
+      "//"
+    ],
+    "answer": "**"
+  },
+  {
+    "id": 3224,
+    "question": "What is the purpose of a parameter in a function?",
+    "choices": [
+      "To provide input to a function",
+      "To terminate a function",
+      "To create a loop"
+    ],
+    "answer": "To provide input to a function"
+  },
+  {
+    "id": 3225,
+    "question": "Which JavaScript method converts a JSON string into a JavaScript object?",
+    "choices": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "JSON.convert()"
+    ],
+    "answer": "JSON.parse()"
+  },
+  {
+    "id": 3226,
+    "question": "Which method converts a string to an integer?",
+    "choices": [
+      "Integer.parseInt()",
+      "String.toInt()",
+      "int.convert()"
+    ],
+    "answer": "Integer.parseInt()"
+  },
+  {
+    "id": 3227,
+    "question": "Which keyword allows a class to implement an interface?",
+    "choices": [
+      "extends",
+      "implements",
+      "interface"
+    ],
+    "answer": "implements"
+  },
+  {
+    "id": 3228,
+    "question": "Which keyword is used to declare an abstract class?",
+    "choices": [
+      "abstract",
+      "visual",
+      "interface"
+    ],
+    "answer": "abstract"
+  },
+  {
+    "id": 3229,
+    "question": "Which method is called when a new object is created?",
+    "choices": [
+      "Constructor",
+      "Destructor",
+      "Main method"
+    ],
+    "answer": "Constructor"
+  },
+  {
+    "id": 3230,
+    "question": "Which access modifier allows access within the same package and from subclasses in other packages?",
+    "choices": [
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "protected"
+  },
+  {
+    "id": 3231,
+    "question": "Which OOP principle allows a class to acquire properties and methods from another class?",
+    "choices": [
+      "Encapsulation",
+      "Inheritance",
+      "Abstraction"
+    ],
+    "answer": "Inheritance"
+  },
+  {
+    "id": 3232,
+    "question": "Which OOP concept allows a subclass to use methods from its parent class?",
+    "choices": [
+      "Inheritance",
+      "Encapsulation",
+      "Abstraction"
+    ],
+    "answer": "Inheritance"
+  },
+  {
+    "id": 3233,
+    "question": "Which keyword calls a parent class constructor?",
+    "choices": [
+      "this",
+      "super",
+      "extends"
+    ],
+    "answer": "super"
+  },
+  {
+    "id": 3234,
+    "question": "What is the main purpose of an interface?",
+    "choices": [
+      "Define a contract for implementing classes",
+      "Store only integer values",
+      "Create loops"
+    ],
+    "answer": "Define a contract for implementing classes"
+  },
+  {
+    "id": 3235,
+    "question": "What is the main purpose of method overriding in object-oriented programming?",
+    "choices": [
+      "To create multiple objects from one class",
+      "To allow a subclass to provide its own implementation of an inherited method",
+      "To hide all attributes of a class"
+    ],
+    "answer": "To allow a subclass to provide its own implementation of an inherited method"
+  },
+  {
+    "id": 3236,
+    "question": "Which keyword makes a method belong to the class instead of an object?",
+    "choices": [
+      "static",
+      "final",
+      "private"
+    ],
+    "answer": "static"
+  },
+  {
+    "id": 3237,
+    "question": "Which OOP concept hides implementation details and exposes essential features?",
+    "choices": [
+      "Inheritance",
+      "Abstraction",
+      "Overloading"
+    ],
+    "answer": "Abstraction"
+  },
+  {
+    "id": 3238,
+    "question": "What is the time complexity of linear search in the worst case?",
+    "choices": [
+      "O(1)",
+      "O(n)²",
+      "O(n)"
+    ],
+    "answer": "O(n)"
+  },
+  {
+    "id": 3239,
+    "question": "What is the time complexity of binary search in the worst case?",
+    "choices": [
+      "O(n)",
+      "O(log n)",
+      "O(n)²"
+    ],
+    "answer": "O(log n)"
+  },
+  {
+    "id": 3240,
+    "question": "What is the output of this stack operation sequence?\npush(2), push(5), pop()",
+    "choices": [
+      "2",
+      "5",
+      "7"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 3241,
+    "question": "What is the output of this queue operation sequence?\nenqueue(3), enqueue(7), dequeue()",
+    "choices": [
+      "3",
+      "7",
+      "10"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 3242,
+    "question": "Which sorting algorithm uses a divide-and-conquer approach?",
+    "choices": [
+      "Bubble sort",
+      "Merge sort",
+      "Linear search"
+    ],
+    "answer": "Merge sort"
+  },
+  {
+    "id": 3243,
+    "question": "What is the worst-case time complexity of bubble sort?",
+    "choices": [
+      "O(n)",
+      "O(n log n)",
+      "O(n²)"
+    ],
+    "answer": "O(n²)"
+  },
+  {
+    "id": 3244,
+    "question": "Which data structure is commonly used to implement recursion?",
+    "choices": [
+      "Stack",
+      "Queue",
+      "Graph"
+    ],
+    "answer": "Stack"
+  },
+  {
+    "id": 3245,
+    "question": "Which data structure is best for representing a hierarchy?",
+    "choices": [
+      "Array",
+      "Tree",
+      "Queue"
+    ],
+    "answer": "Tree"
+  },
+  {
+    "id": 3246,
+    "question": "What is the output of this code?\nint[] a = {1, 2, 3}; System.out.println(a.length);",
+    "choices": [
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 3247,
+    "question": "Which algorithm explores a graph level by level?",
+    "choices": [
+      "Breadth-first search",
+      "Depth-first search",
+      "Binary search"
+    ],
+    "answer": "Breadth-first search"
+  },
+  {
+    "id": 3248,
+    "question": "Which algorithm explores a graph by going as deep as possible before backtracking?",
+    "choices": [
+      "Depth-first search",
+      "Breadth-first search",
+      "Bubble sort"
+    ],
+    "answer": "Breadth-first search"
+  },
+  {
+    "id": 3249,
+    "question": "What is the time complexity of accessing the first element of an array?",
+    "choices": [
+      "O(1)",
+      "O(n)",
+      "O(log n)"
+    ],
+    "answer": "O(1)"
+  },
+  {
+    "id": 3250,
+    "question": "Which data structure stores key-value pairs?",
+    "choices": [
+      "Stack",
+      "Queue",
+      "HashMap"
+    ],
+    "answer": "HashMap"
+  }
+]
