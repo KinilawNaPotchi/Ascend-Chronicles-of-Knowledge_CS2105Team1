@@ -182,11 +182,11 @@ public class MainMenu extends JFrame {
         choices.add(mathButton);
 
         for (String subject : new String[]{"Science", "Programming"}){
-            JButton protalButton = new JButton(subject);
-            protalButton.addActionListener(event -> JOptionPane.showMessageDialog(
+            JButton portalButton = new JButton(subject);
+            portalButton.addActionListener(event -> JOptionPane.showMessageDialog(
                     this, "The" + subject + "portal is still in development."
             ));
-            choices.add(protalButton);
+            choices.add(portalButton);
         }
 
         JButton backButton = new JButton("Back");
