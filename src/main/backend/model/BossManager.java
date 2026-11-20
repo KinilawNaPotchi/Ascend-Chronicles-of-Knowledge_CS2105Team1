@@ -10,10 +10,18 @@ public class BossManager {
         bosses = new ArrayList<>();
 
         Boss math1 = new Boss(
-                "Halimeow", 100, 100, Category.MATHEMATICS, false
+                "Integral", 100, 100, Category.MATHEMATICS, false
+        );
+        Boss math2 = new Boss(
+                "Summation", 100, 100, Category.MATHEMATICS, false
+        );
+        Boss math3 = new Boss(
+                "Infinty", 100, 100, Category.MATHEMATICS, true
         );
 
         bosses.add(math1);
+        bosses.add(math2);
+        bosses.add(math3);
     }
 
 }
