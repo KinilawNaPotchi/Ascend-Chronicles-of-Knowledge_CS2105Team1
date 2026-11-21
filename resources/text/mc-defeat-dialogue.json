@@ -1,0 +1,47 @@
+[
+  {
+    "enemyCategory": "Math",
+    "enemyName": "Axiom",
+    "text": "I really thought I had all the numbers figured out."
+  },
+  {
+    "enemyCategory": "Math",
+    "enemyName": "Continuum",
+    "text": "So much for seeing the bigger picture..."
+  },
+  {
+    "enemyCategory": "Math",
+    "enemyName": "Infinitra",
+    "text": "Ugh! I was close! Guess I need to recalculate my strategy..."
+  },
+  {
+    "enemyCategory": "Science",
+    "enemyName": "VOLT-EX",
+    "text": "That hit harder than I expected."
+  },
+  {
+    "enemyCategory": "Science",
+    "enemyName": "CatalyX",
+    "text": "I didn't expect things to escalate that quickly."
+  },
+  {
+    "enemyCategory": "Science",
+    "enemyName": "GENEXIS",
+    "text": "I should've seen that coming."
+  },
+  {
+    "enemyCategory": "Programming",
+    "enemyName": "RepetiAI",
+    "text": "No. I've heard enough."
+  },
+  {
+    "enemyCategory": "Programming",
+    "enemyName": "HaluGen",
+    "text": "I don't think you understand what just happened."
+  },
+  {
+    "enemyCategory": "Programming",
+    "enemyName": "ChatWise",
+    "text": "It really wasn't actually."
+  }
+]
