@@ -1,0 +1,47 @@
+[
+  {
+    "enemyCategory": "Math",
+    "enemyName": "Axiom",
+    "text": "Looks like your calculations didn't add up."
+  },
+  {
+    "enemyCategory": "Math",
+    "enemyName": "Continuum",
+    "text": "Guess all that buildup led to nothing."
+  },
+  {
+    "enemyCategory": "Math",
+    "enemyName": "Infinitra",
+    "text": "Not so infinite now, are you?"
+  },
+  {
+    "enemyCategory": "Science",
+    "enemyName": "VOLT-EX",
+    "text": "Looks like you finally ran out of power."
+  },
+  {
+    "enemyCategory": "Science",
+    "enemyName": "CatalyX",
+    "text": "That reaction didn't turn out as expected."
+  },
+  {
+    "enemyCategory": "Science",
+    "enemyName": "GENEXIS",
+    "text": "Looks like your system couldn't process that."
+  },
+  {
+    "enemyCategory": "Programming",
+    "enemyName": "RepetiAI",
+    "text": "You can finish explaining after I leave."
+  },
+  {
+    "enemyCategory": "Programming",
+    "enemyName": "HaluGen",
+    "text": "Maybe double-check your information next time."
+  },
+  {
+    "enemyCategory": "Programming",
+    "enemyName": "ChatWise",
+    "text": "Well, at least your customer service is consistent."
+  }
+]

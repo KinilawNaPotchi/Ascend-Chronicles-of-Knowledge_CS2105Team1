@@ -1,0 +1,82 @@
+[
+  {
+    "level": 1,
+    "dialogueID": 1,
+    "text": "Where am I? And who was I before all this?"
+  },
+  {
+    "level": 1,
+    "dialogueID": 2,
+    "text": "I have so many questions, but so few answers..."
+  },
+  {
+    "level": 1,
+    "dialogueID": 3,
+    "text": "A strange feeling tells me that I've forgotten something important."
+  },
+  {
+    "level": 1,
+    "dialogueID": 4,
+    "text": "Perhaps this journey will help me discover who I really am."
+  },
+  {
+    "level": 2,
+    "dialogueID": 5,
+    "text": "Something is coming back to me... is this what remembering feels like?"
+  },
+  {
+    "level": 2,
+    "dialogueID": 6,
+    "text": "I feel different. Stronger, perhaps?"
+  },
+  {
+    "level": 2,
+    "dialogueID": 7,
+    "text": "The answers are beginning to take shape."
+  },
+  {
+    "level": 2,
+    "dialogueID": 8,
+    "text": "Whoever I was before, I must have been quite remarkable."
+  },
+  {
+    "level": 3,
+    "dialogueID": 9,
+    "text": "I can almost see it now... My past is closer than ever."
+  },
+  {
+    "level": 3,
+    "dialogueID": 10,
+    "text": "Two fragments recovered. I'm starting to get the hang of this!"
+  },
+  {
+    "level": 3,
+    "dialogueID": 11,
+    "text": "I wonder if the person I used to be would be proud of me..."
+  },
+  {
+    "level": 3,
+    "dialogueID": 12,
+    "text": "The pieces are falling into place. Just one more!"
+  },
+  {
+    "level": 4,
+    "dialogueID": 13,
+    "text": "At last, I remember who I am!"
+  },
+  {
+    "level": 4,
+    "dialogueID": 14,
+    "text": "The knowledge I once possessed has finally returned."
+  },
+  {
+    "level": 4,
+    "dialogueID": 15,
+    "text": "What a journey. I suppose I owe these dimensions a thank-you."
+  },
+  {
+    "level": 4,
+    "dialogueID": 16,
+    "text": "The universe is full of mysteries. Perhaps I should start exploring again."
+  }
+]
