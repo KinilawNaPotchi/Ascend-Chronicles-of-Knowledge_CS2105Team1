@@ -1,0 +1,56 @@
+[
+  {
+    "enemyCategory": "Math",
+    "bossNumber": 1,
+    "enemyName": "Axiom",
+    "text": "I really thought I had all the numbers figured out."
+  },
+  {
+    "enemyCategory": "Math",
+    "bossNumber": 2,
+    "enemyName": "Continuum",
+    "text": "So much for seeing the bigger picture..."
+  },
+  {
+    "enemyCategory": "Math",
+    "bossNumber": 3,
+    "enemyName": "Infinitra",
+    "text": "Ugh! I was close! Guess I need to recalculate my strategy..."
+  },
+  {
+    "enemyCategory": "Science",
+    "bossNumber": 1,
+    "enemyName": "VOLT-EX",
+    "text": "That hit harder than I expected."
+  },
+  {
+    "enemyCategory": "Science",
+    "bossNumber": 2,
+    "enemyName": "CatalyX",
+    "text": "I didn't expect things to escalate that quickly."
+  },
+  {
+    "enemyCategory": "Science",
+    "bossNumber": 3,
+    "enemyName": "GENEXIS",
+    "text": "I should've seen that coming."
+  },
+  {
+    "enemyCategory": "Programming",
+    "bossNumber": 1,
+    "enemyName": "RepetiAI",
+    "text": "No. I've heard enough."
+  },
+  {
+    "enemyCategory": "Programming",
+    "bossNumber": 2,
+    "enemyName": "HaluGen",
+    "text": "I don't think you understand what just happened."
+  },
+  {
+    "enemyCategory": "Programming",
+    "bossNumber": 3,
+    "enemyName": "ChatWise",
+    "text": "It really wasn't actually."
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "dialogues": [
+    {
+      "dialogueId": "D001",
+      "character": "Narrator",
+      "dialogueType": "Opening",
+      "text": "Beyond the boundaries of the known universe existed a being unlike any other."
+    },
+    {
+      "dialogueId": "D002",
+      "character": "Narrator",
+      "dialogueType": "Opening",
+      "text": "A mind capable of understanding the very foundations of reality."
+    },
+    {
+      "dialogueId": "D003",
+      "character": "Narrator",
+      "dialogueType": "Opening",
+      "text": "To this being, the universe was an open book."
+    },
+    {
+      "dialogueId": "D004",
+      "character": "The Cosmic Arbiter",
+      "dialogueType": "Opening",
+      "text": "No single being should hold the knowledge to reshape existence."
+    },
+    {
+      "dialogueId": "D005",
+      "character": "Narrator",
+      "dialogueType": "Opening",
+      "text": "The Cosmic Arbiter divided the being's memories into three fragments and scattered them across different dimensions."
+    },
+    {
+      "dialogueId": "D006",
+      "character": "Narrator",
+      "dialogueType": "Opening",
+      "text": "Their consciousness wandered into a realm between worlds, where forgotten memories awaited."
+    },
+    {
+      "dialogueId": "D007",
+      "character": "Remnis",
+      "dialogueType": "Introduction",
+      "text": "Ah... You're finally awake."
+    },
+    {
+      "dialogueId": "D008",
+      "character": "Remnis",
+      "dialogueType": "Introduction",
+      "text": "Your memories are gone, and even your name has been lost."
+    },
+    {
+      "dialogueId": "D009",
+      "character": "Remnis",
+      "dialogueType": "Introduction",
+      "text": "Tell me, what should I call you?"
+    },
+    {
+      "dialogueId": "D010",
+      "character": "Remnis",
+      "dialogueType": "Introduction",
+      "text": "Very well. Let us see if we can help you remember the rest."
+    },
+    {
+      "dialogueId": "D011",
+      "character": "Narrator",
+      "dialogueType": "Ending",
+      "text": "The three memory fragments gathered and formed a mirror."
+    },
+    {
+      "dialogueId": "D012",
+      "character": "Remnis",
+      "dialogueType": "Ending",
+      "text": "I was created from the part of you that refused to forget. Now that you remember who you are, my purpose has finally been fulfilled."
+    },
+    {
+      "dialogueId": "D013",
+      "character": "Remnis",
+      "dialogueType": "Ending",
+      "text": "Until we meet again."
+    },
+    {
+      "dialogueId": "D014",
+      "character": "The Cosmic Arbiter",
+      "dialogueType": "Ending",
+      "text": "You have walked this path countless times. And each time, I have brought you back to the beginning."
+    },
+    {
+      "dialogueId": "D015",
+      "character": "MC",
+      "dialogueType": "Ending",
+      "text": "Then perhaps it's time someone questioned that balance."
+    },
+    {
+      "dialogueId": "D016",
+      "character": "Narrator",
+      "dialogueType": "Ending",
+      "text": "TO BE CONTINUED..."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "category": "Math",
+    "bossNumber": 1,
+    "name": "Axiom",
+    "text": "Every number has its place. Together, they form something greater. Can you keep up?"
+  },
+  {
+    "category": "Math",
+    "bossNumber": 2,
+    "name": "Continuum",
+    "text": "Every fragment contributes to the whole. Let us see if you can measure up."
+  },
+  {
+    "category": "Math",
+    "bossNumber": 3,
+    "name": "Infinitra",
+    "text": "You dare challenge infinity itself? Your limits will be your downfall."
+  },
+  {
+    "category": "Science",
+    "bossNumber": 1,
+    "name": "VOLT-EX",
+    "text": "ENERGY LEVELS: OPTIMAL. COMBAT SEQUENCE INITIATED. CHALLENGER, PREPARE FOR ELECTRICAL DISCHARGE."
+  },
+  {
+    "category": "Science",
+    "bossNumber": 2,
+    "name": "CatalyX",
+    "text": "CHEMICAL REACTION DETECTED. ANALYZING CHALLENGER... THREAT LEVEL: HIGH. INITIATING REACTION PROTOCOL."
+  },
+  {
+    "category": "Science",
+    "bossNumber": 3,
+    "name": "GENEXIS",
+    "text": "ACCESS DENIED. MEMORY FRAGMENT SECURITY PROTOCOL ACTIVATED. HOSTILE ENTITY DETECTED. TERMINATION SEQUENCE INITIATED."
+  },
+  {
+    "category": "Programming",
+    "bossNumber": 1,
+    "name": "RepetiAI",
+    "text": "Welcome, challenger. Before we begin, let me explain how this battle works. First, you attack, then I respond. Then you attack again. This process continues until—"
+  },
+  {
+    "category": "Programming",
+    "bossNumber": 2,
+    "name": "HaluGen",
+    "text": "I've analyzed your abilities and identified your greatest weakness. You are allergic to winning."
+  },
+  {
+    "category": "Programming",
+    "bossNumber": 3,
+    "name": "ChatWise",
+    "text": "Hello! I'd be happy to assist you. Unfortunately, your request for the memory fragment has been denied."
+  }
+]
