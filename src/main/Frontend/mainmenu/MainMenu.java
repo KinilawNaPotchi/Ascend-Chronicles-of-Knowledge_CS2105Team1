@@ -4,6 +4,7 @@ import Frontend.mathportal.MathPortalPanel;
 import Frontend.playerprofile.ProfileScreenPanel;
 import Frontend.titlescreen.TitleScreenPanel;
 import Frontend.portalselection.PortalSelectionPanel;
+import Frontend.utils.FontManager;
 
 import javax.swing.*;
 import java.awt.*;
@@ -89,12 +90,12 @@ public class MainMenu extends JFrame {
         options.setLayout(new BoxLayout(options, BoxLayout.Y_AXIS));
 
         JLabel title = new JLabel("ASCEND");
-        title.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 48));
+        title.setFont(FontManager.bold(48f));
         title.setForeground(Color.WHITE);
         title.setAlignmentX(Component.CENTER_ALIGNMENT);
 
         JLabel subtitle = new JLabel("Chronicles of Knowledge");
-        subtitle.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 20));
+        subtitle.setFont(FontManager.regular(20f));
         subtitle.setForeground(Color.WHITE);
         subtitle.setAlignmentX(Component.CENTER_ALIGNMENT);
 
@@ -137,7 +138,7 @@ public class MainMenu extends JFrame {
     }
 
     private JPanel createPortalScreen() {
-        return new Frontend.portalselection.PortalSelectionPanel(
+        return new PortalSelectionPanel(
                 mathButton,
                 this::showMathPortal,
                 () -> JOptionPane.showMessageDialog(this, "The Science portal is coming soon."),
@@ -170,6 +171,12 @@ public class MainMenu extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new MainMenu().setVisible(true));
+        SwingUtilities.invokeLater(() -> {
+
+            // Apply Pixelify Sans throughout the game
+            FontManager.applyGlobalFont();
+
+            new MainMenu().setVisible(true);
+        });
     }
 }
