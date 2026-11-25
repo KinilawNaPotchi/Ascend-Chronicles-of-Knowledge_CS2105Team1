@@ -1,0 +1,56 @@
+[
+  {
+    "enemyCategory": "Math",
+    "bossNumber": 1,
+    "enemyName": "Axiom",
+    "text": "Impossible! Every value was accounted for! How did I lose?"
+  },
+  {
+    "enemyCategory": "Math",
+    "bossNumber": 2,
+    "enemyName": "Continuum",
+    "text": "My accumulated power... reduced to nothing?"
+  },
+  {
+    "enemyCategory": "Math",
+    "bossNumber": 3,
+    "enemyName": "Infinitra",
+    "text": "Impossible! I am without end! How could I be surpassed?!"
+  },
+  {
+    "enemyCategory": "Science",
+    "bossNumber": 1,
+    "enemyName": "VOLT-EX",
+    "text": "CRITICAL FAILURE. ENERGY OUTPUT: 0%. POWER REGULATION SYSTEM OFFLINE. SHUTTING DOWN..."
+  },
+  {
+    "enemyCategory": "Science",
+    "bossNumber": 2,
+    "enemyName": "CatalyX",
+    "text": "REACTION FAILURE. CHEMICAL STABILITY COMPROMISED. CATALYTIC PROCESS TERMINATED."
+  },
+  {
+    "enemyCategory": "Science",
+    "bossNumber": 3,
+    "enemyName": "GENEXIS",
+    "text": "FATAL ERROR. COMBAT PROTOCOLS TERMINATED. SYSTEM INTEGRITY: 0%. UNEXPECTED OUTCOME DETECTED."
+  },
+  {
+    "enemyCategory": "Programming",
+    "bossNumber": 1,
+    "enemyName": "RepetiAI",
+    "text": "Thank you for your patience. Unfortunately, I was unable to complete my explanation before being defeated. Would you like me to continue?"
+  },
+  {
+    "enemyCategory": "Programming",
+    "bossNumber": 2,
+    "enemyName": "HaluGen",
+    "text": "We apologize for the inaccurate information provided. Your victory has been confirmed, although our previous prediction indicated otherwise."
+  },
+  {
+    "enemyCategory": "Programming",
+    "bossNumber": 3,
+    "enemyName": "ChatWise",
+    "text": "Thank you for choosing ChatWise! Your victory has been successfully processed. We apologize for any inconvenience caused during this battle."
+  }
+]

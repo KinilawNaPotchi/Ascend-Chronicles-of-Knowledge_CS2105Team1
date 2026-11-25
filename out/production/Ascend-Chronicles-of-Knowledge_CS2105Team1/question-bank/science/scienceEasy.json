@@ -1,0 +1,502 @@
+[
+  {
+    "id": 2101,
+    "question": "What is the SI unit of force?",
+    "choices": [
+      "Joule",
+      "Newton",
+      "Watt"
+    ],
+    "answer": "Newton"
+  },
+  {
+    "id": 2102,
+    "question": "What is the SI unit of energy?",
+    "choices": [
+      "Joule",
+      "Newton",
+      "Pascal"
+    ],
+    "answer": "Joule"
+  },
+  {
+    "id": 2103,
+    "question": "What is the speed of an object that travels 100 meters in 20 seconds?",
+    "choices": [
+      "2 m/s",
+      "4 m/s",
+      "5 m/s"
+    ],
+    "answer": "5 m/s"
+  },
+  {
+    "id": 2104,
+    "question": "What force pulls object towards Earth?",
+    "choices": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "answer": "Gravity"
+  },
+  {
+    "id": 2105,
+    "question": "What is the acceleration of an object at rest when no net force acts on it?",
+    "choices": [
+      "0 m/s²",
+      "1 m/s²",
+      "9.8 m/s²"
+    ],
+    "answer": "0 m/s²"
+  },
+  {
+    "id": 2106,
+    "question": "What is the SI unit of electric current?",
+    "choices": [
+      "Volt",
+      "Ohm",
+      "Ampere"
+    ],
+    "answer": "Ampere"
+  },
+  {
+    "id": 2107,
+    "question": "What type of energy does a moving object have?",
+    "choices": [
+      "Potential Energy",
+      "Kinetic Energy",
+      "Chemical Energy"
+    ],
+    "answer": "Kinetic Energy"
+  },
+  {
+    "id": 2108,
+    "question": "What is the SI unit of power?",
+    "choices": [
+      "Watt",
+      "Joule",
+      "Newton"
+    ],
+    "answer": "Watt"
+  },
+  {
+    "id": 2109,
+    "question": "What is the approximate acceleration due to gravity near Earth's surface?",
+    "choices": [
+      "5.0 m/s²",
+      "9.8 m/s²",
+      "15.0 m/s²"
+    ],
+    "answer": "9.8 m/s²"
+  },
+  {
+    "id": 2110,
+    "question": "What is the formula for density?",
+    "choices": [
+      "Mass x Volume",
+      "Volume/Mass",
+      "Mass/Volume"
+    ],
+    "answer": "Mass/Volume"
+  },
+  {
+    "id": 2111,
+    "question": "What is the SI unit of pressure?",
+    "choices": [
+      "Pascal",
+      "Joule",
+      "Watt"
+    ],
+    "answer": "Pascal"
+  },
+  {
+    "id": 2112,
+    "question": "What type of wave is sound?",
+    "choices": [
+      "Electromagnetic",
+      "Mechanical",
+      "Radioactive"
+    ],
+    "answer": "Mechanical"
+  },
+  {
+    "id": 2113,
+    "question": "What is the SI unit of frequency?",
+    "choices": [
+      "Hertz",
+      "Meter",
+      "Second"
+    ],
+    "answer": "Hertz"
+  },
+  {
+    "id": 2114,
+    "question": "What happens to the resistance of a wire when its length increases, assuming the same material and thickness?",
+    "choices": [
+      "It decreases",
+      "It stays the same",
+      "It increases"
+    ],
+    "answer": "It increases"
+  },
+  {
+    "id": 2115,
+    "question": "What is the formula for electric power?",
+    "choices": [
+      "Voltage x Current",
+      "Voltage/Current",
+      "Current/Voltage"
+    ],
+    "answer": "Voltage x Current"
+  },
+  {
+    "id": 2116,
+    "question": "What type of lens is used to correct nearsightedness?",
+    "choices": [
+      "Convex lens",
+      "Concave lens",
+      "Cylindrical lens"
+    ],
+    "answer": "Concave lens"
+  },
+  {
+    "id": 2117,
+    "question": "What is the SI unit of electric charge?",
+    "choices": [
+      "Coulomb",
+      "Ampere",
+      "Volt"
+    ],
+    "answer": "Coulomb"
+  },
+  {
+    "id": 2118,
+    "question": "What is the chemical symbol for oxygen?",
+    "choices": [
+      "O",
+      "Ox",
+      "Og"
+    ],
+    "answer": "O"
+  },
+  {
+    "id": 2119,
+    "question": "What is the chemical formula for water?",
+    "choices": [
+      "CO₂",
+      "H₂O",
+      "O₂"
+    ],
+    "answer": "H₂O"
+  },
+  {
+    "id": 2120,
+    "question": "What is the atomic number of carbon?",
+    "choices": [
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "6"
+  },
+  {
+    "id": 2121,
+    "question": "What is the pH of pure water at 25°C?",
+    "choices": [
+      "5",
+      "7",
+      "9"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 2122,
+    "question": "What is the chemical symbol for sodium?",
+    "choices": [
+      "S",
+      "So",
+      "Na"
+    ],
+    "answer": "Na"
+  },
+  {
+    "id": 2123,
+    "question": "What particle has a negative electric charge?",
+    "choices": [
+      "Proton",
+      "Electron",
+      "Neutron"
+    ],
+    "answer": "Electron"
+  },
+  {
+    "id": 2124,
+    "question": "What is the chemical formula for carbon dioxide?",
+    "choices": [
+      "CO",
+      "CO₂",
+      "C₂O"
+    ],
+    "answer": "CO₂"
+  },
+  {
+    "id": 2125,
+    "question": "What is the smallest unit of an element that retains its chemical properties?",
+    "choices": [
+      "Atom",
+      "Molecule",
+      "Compound"
+    ],
+    "answer": "Atom"
+  },
+  {
+    "id": 2126,
+    "question": "What is the chemical symbol for gold?",
+    "choices": [
+      "Go",
+      "Gd",
+      "Au"
+    ],
+    "answer": "Au"
+  },
+  {
+    "id": 2127,
+    "question": "What type of bond forms when atoms share electrons?",
+    "choices": [
+      "Ionic bond",
+      "Covalent bond",
+      "Metallic bond"
+    ],
+    "answer": "Covalent bond"
+  },
+  {
+    "id": 2128,
+    "question": "What is the charge of a proton?",
+    "choices": [
+      "Positive",
+      "Negative",
+      "Neutral"
+    ],
+    "answer": "Positive"
+  },
+  {
+    "id": 2129,
+    "question": "What is the chemical formula for table salt?",
+    "choices": [
+      "NaCl",
+      "KCl",
+      "CaCl₂"
+    ],
+    "answer": "NaCl"
+  },
+  {
+    "id": 2130,
+    "question": "What is the mass number of an atom with 6 protons and 6 neutrons?",
+    "choices": [
+      "6",
+      "12",
+      "18"
+    ],
+    "answer": "12"
+  },
+  {
+    "id": 2131,
+    "question": "What is the main gas in Earth's atmosphere?",
+    "choices": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "answer": "Nitrogen"
+  },
+  {
+    "id": 2132,
+    "question": "What is the chemical symbol for iron?",
+    "choices": [
+      "Ir",
+      "Fe",
+      "In"
+    ],
+    "answer": "Fe"
+  },
+  {
+    "id": 2133,
+    "question": "What is the pH of a solution with a hydrogen ion concentration of 10⁻³M?",
+    "choices": [
+      "3",
+      "7",
+      "11"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 2134,
+    "question": "What is the chemical formula for methane?",
+    "choices": [
+      "CH₄",
+      "C₂H₆",
+      "C₂H₄"
+    ],
+    "answer": "CH₄"
+  },
+  {
+    "id": 2135,
+    "question": "What is the basic unit of life?",
+    "choices": [
+      "Tissue",
+      "Cell",
+      "Organ"
+    ],
+    "answer": "Cell"
+  },
+  {
+    "id": 2136,
+    "question": "Which organelle produces most of a cell's ATP?",
+    "choices": [
+      "Nucleus",
+      "Mitochondrion",
+      "Ribosome"
+    ],
+    "answer": "Mitochondrion"
+  },
+  {
+    "id": 2137,
+    "question": "Which organelle contains most of a eukaryotic cell's DNA?",
+    "choices": [
+      "Nucleus",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "answer": "Nucleus"
+  },
+  {
+    "id": 2138,
+    "question": "What molecule carries genetic information?",
+    "choices": [
+      "ATP",
+      "DNA",
+      "Glucose"
+    ],
+    "answer": "DNA"
+  },
+  {
+    "id": 2139,
+    "question": "What gas do plants absorb during photosynthesis?",
+    "choices": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "answer": "Carbon dioxide"
+  },
+  {
+    "id": 2140,
+    "question": "What gas do plants release during photosynthesis?",
+    "choices": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "answer": "Oxygen"
+  },
+  {
+    "id": 2141,
+    "question": "What is the main function of red blood cells?",
+    "choices": [
+      "Fight infections",
+      "Carry oxygen",
+      "Produce hormones"
+    ],
+    "answer": "Carry oxygen"
+  },
+  {
+    "id": 2142,
+    "question": "Which organ pumps blood throughout the human body?",
+    "choices": [
+      "Liver",
+      "Heart",
+      "Kidney"
+    ],
+    "answer": "Heart"
+  },
+  {
+    "id": 2143,
+    "question": "Which organ filters blood and produces urine?",
+    "choices": [
+      "Kidney",
+      "Lung",
+      "Stomach"
+    ],
+    "answer": "Kidney"
+  },
+  {
+    "id": 2144,
+    "question": "What is the basic unit of heredity?",
+    "choices": [
+      "Gene",
+      "Tissue",
+      "Stomach"
+    ],
+    "answer": "Gene"
+  },
+  {
+    "id": 2145,
+    "question": "What molecule provides the main energy source for most cells?",
+    "choices": [
+      "Glucose",
+      "DNA",
+      "Water"
+    ],
+    "answer": "Glucose"
+  },
+  {
+    "id": 2146,
+    "question": "What is the process by which cells divide to produce two identical daughter cells?",
+    "choices": [
+      "Meiosis",
+      "Mitosis",
+      "Fertilization"
+    ],
+    "answer": "Mitosis"
+  },
+  {
+    "id": 2147,
+    "question": "Which part of a plant absorbs water from a cell?",
+    "choices": [
+      "Leaf",
+      "Flower",
+      "Root"
+    ],
+    "answer": "Root"
+  },
+  {
+    "id": 2148,
+    "question": "What is the largest organ of the human body?",
+    "choices": [
+      "Liver",
+      "Skin",
+      "Heart"
+    ],
+    "answer": "Skin"
+  },
+  {
+    "id": 2149,
+    "question": "Which blood cells help fight infections?",
+    "choices": [
+      "Red blood cells",
+      "White blood cells",
+      "Platelets"
+    ],
+    "answer": "White blood cells"
+  },
+  {
+    "id": 2150,
+    "question": "What is the main function of ribosomes?",
+    "choices": [
+      "Produce proteins",
+      "Store DNA",
+      "Break down glucose"
+    ],
+    "answer": "Produce proteins"
+  }
+]
