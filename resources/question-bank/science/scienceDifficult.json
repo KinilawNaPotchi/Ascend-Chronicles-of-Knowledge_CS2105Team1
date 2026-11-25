@@ -2,101 +2,201 @@
   {
     "id": 2301,
     "question": "A 5 kg object accelerates at 4 m/s². What is the net force acting on it?",
+    "choices": [
+      "20 N",
+      "15 N",
+      "25 N"
+    ],
     "answer": "20 N"
   },
   {
     "id": 2302,
     "question": "A 2 kg object moves at 10 m/s. What is its kinetic energy?",
+    "choices": [
+      "50 J",
+      "100 J",
+      "200 J"
+    ],
     "answer": "100 J"
   },
   {
     "id": 2303,
     "question": "A 12 V battery is connected to a 4 Ω resistor. What is the current?",
+    "choices": [
+      "2 A",
+      "3 A",
+      "4 A"
+    ],
     "answer": "3 A"
   },
   {
     "id": 2304,
     "question": "A wave has a frequency of 5 Hz and a wavelength of 8 meters. What is its speed?",
+    "choices": [
+      "13 m/s",
+      "35 m/s",
+      "40 m/s"
+    ],
     "answer": "40 m/s"
   },
   {
     "id": 2305,
     "question": "A 10 kg object is lifted 3 meters. What is its gravitational potential energy? Use g = 9.8 m/s²",
+    "choices": [
+      "294 J",
+      "98 J",
+      "300 J"
+    ],
     "answer": "294 J"
   },
   {
     "id": 2306,
     "question": "A 20 N force moves an object 5 meters in the same direction as the force. How much work is done?",
+    "choices": [
+      "25 J",
+      "100 J",
+      "200 J"
+    ],
     "answer": "100 J"
   },
   {
     "id": 2307,
     "question": "A 2 kg object moving at 6 m/s collides with a stationary 4 kg object. They stick together. What is their final velocity?",
+    "choices": [
+      "2 m/s",
+      "3 m/s",
+      "6 m/s"
+    ],
     "answer": "2 m/s"
   },
   {
     "id": 2308,
     "question": "How many moles are in 90 grams of water? Use a molar mass of 18 g/mol.",
+    "choices": [
+      "3 mol",
+      "5 mol",
+      "6 mol"
+    ],
     "answer": "5 mol"
   },
   {
     "id": 2309,
     "question": "What is the molarity of a solution containing 3 moles of solute in 2 liters of solution?",
+    "choices": [
+      "1.5 M",
+      "2 M",
+      "6 M"
+    ],
     "answer": "1.5 M"
   },
   {
     "id": 2310,
     "question": "What is the pH of a solution with a hydrogen ion concentration of 10⁻⁴ M?",
+    "choices": [
+      "4",
+      "7",
+      "10"
+    ],
     "answer": "4"
   },
   {
     "id": 2311,
     "question": "What is the mass of 2 moles of sodium chloride? Use a molar mass of 58.5 g/mol.",
+    "choices": [
+      "58.5 g",
+      "117 g",
+      "234 g"
+    ],
     "answer": "117 g"
   },
   {
     "id": 2312,
-    "question": "How many atoms are in 2 moles of helium? Use Avogadro's number of 6.022 x10²³.",
-    "answer": "1.2044 x10²⁴ atoms"
+    "question": "How many atoms are in 2 moles of helium? Use Avogadro's number of 6.022 x 10²³.",
+    "choices": [
+      "6.022 x 10²³ atoms",
+      "1.2044 x 10²⁴ atoms",
+      "3.011 x 10²³ atoms"
+    ],
+    "answer": "1.2044 x 10²⁴ atoms"
   },
   {
     "id": 2313,
     "question": "What is the coefficient of oxygen in the balanced equation below?\n2H₂ + O₂ → 2H₂O",
+    "choices": [
+      "1",
+      "2",
+      "3"
+    ],
     "answer": "1"
   },
   {
     "id": 2314,
     "question": "What is the oxidation number of sulfur in H₂SO₄?",
+    "choices": [
+      "4",
+      "6",
+      "8"
+    ],
     "answer": "6"
   },
   {
     "id": 2315,
     "question": "How many chromosomes are in a normal human somatic cell?",
+    "choices": [
+      "23",
+      "46",
+      "48"
+    ],
     "answer": "46"
   },
   {
     "id": 2316,
     "question": "How many chromosomes are in a normal human gamete?",
+    "choices": [
+      "46",
+      "22",
+      "23"
+    ],
     "answer": "23"
   },
   {
     "id": 2317,
     "question": "How many ATP molecules are produced directly by glycolysis per glucose molecule?",
+    "choices": [
+      "2 ATP",
+      "4 ATP",
+      "36 ATP"
+    ],
     "answer": "2 ATP"
   },
   {
     "id": 2318,
     "question": "How many amino acids are encoded by the mRNA sequence AUG-GCU-AAA-UAA?",
+    "choices": [
+      "2",
+      "3",
+      "4"
+    ],
     "answer": "3"
   },
   {
     "id": 2319,
     "question": "What is the number of hydrogen bonds between adenine and thymine in DNA?",
+    "choices": [
+      "2",
+      "3",
+      "4"
+    ],
     "answer": "2"
   },
   {
     "id": 2320,
     "question": "How many daughter cells are produced by one parent cell after meiosis?",
+    "choices": [
+      "2",
+      "4",
+      "8"
+    ],
     "answer": "4"
   }
 ]
