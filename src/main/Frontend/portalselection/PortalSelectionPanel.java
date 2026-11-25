@@ -1,4 +1,3 @@
-
 package Frontend.portalselection;
 
 import javax.swing.*;
