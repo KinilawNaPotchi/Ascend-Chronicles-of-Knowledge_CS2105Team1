@@ -1,0 +1,47 @@
+[
+  {
+    "enemyCategory": "Math",
+    "enemyName": "Axiom",
+    "text": "One mistake is all it takes to ruin the entire sum."
+  },
+  {
+    "enemyCategory": "Math",
+    "enemyName": "Continuum",
+    "text": "You underestimated the power of accumulation."
+  },
+  {
+    "enemyCategory": "Math",
+    "enemyName": "Infinitra",
+    "text": "Your potential is finite. My existence is not."
+  },
+  {
+    "enemyCategory": "Science",
+    "enemyName": "VOLT-EX",
+    "text": "CHALLENGER DEFEATED. ELECTRICAL OUTPUT: STABLE. COMBAT RESULT: VICTORY."
+  },
+  {
+    "enemyCategory": "Science",
+    "enemyName": "CatalyX",
+    "text": "REACTION COMPLETE. CHALLENGER RESISTANCE: INSUFFICIENT. EXPERIMENT STATUS: SUCCESSFUL."
+  },
+  {
+    "enemyCategory": "Science",
+    "enemyName": "GENEXIS",
+    "text": "COMBAT ANALYSIS COMPLETE. CHALLENGER NEUTRALIZED. VICTORY CONFIRMED. ALL SYSTEMS OPERATING WITHIN PARAMETERS."
+  },
+  {
+    "enemyCategory": "Programming",
+    "enemyName": "RepetiAI",
+    "text": "Battle concluded. To summarize: I won, you lost, and the outcome was exactly as predicted. Would you like me to explain why?"
+  },
+  {
+    "enemyCategory": "Programming",
+    "enemyName": "HaluGen",
+    "text": "As predicted, your defeat was inevitable. I have never been wrong."
+  },
+  {
+    "enemyCategory": "Programming",
+    "enemyName": "ChatWise",
+    "text": "I hope this response was helpful."
+  }
+]

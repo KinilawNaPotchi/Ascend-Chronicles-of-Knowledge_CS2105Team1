@@ -8,14 +8,14 @@ import javax.swing.plaf.FontUIResource;
 
 public class FontManager {
 
-    // Load Pixelify Sans from the resources folder
+    // LOAD PIXELIFY SANS FROM RESOURCES
     public static Font loadFont(String fileName, float size) {
 
         try (InputStream stream = FontManager.class
-                .getResourceAsStream("/fonts/" + fileName)) {
+                .getResourceAsStream("/assets/fonts/" + fileName)) {
 
             if (stream == null) {
-                throw new Exception("Font file not found");
+                throw new Exception("Font file not found: " + fileName);
             }
 
             return Font.createFont(Font.TRUETYPE_FONT, stream)
@@ -27,17 +27,22 @@ public class FontManager {
         }
     }
 
-    // Regular Pixelify Sans
+    // REGULAR PIXELIFY SANS
     public static Font regular(float size) {
         return loadFont("PixelifySans-Regular.ttf", size);
     }
 
-    // Bold Pixelify Sans
+    // MEDIUM PIXELIFY SANS
+    public static Font medium(float size) {
+        return loadFont("PixelifySans-Medium.ttf", size);
+    }
+
+    // BOLD PIXELIFY SANS
     public static Font bold(float size) {
         return loadFont("PixelifySans-Bold.ttf", size);
     }
 
-    // Set Pixelify Sans as the default Swing font
+    // SET PIXELIFY SANS AS DEFAULT SWING FONT
     public static void applyGlobalFont() {
 
         FontUIResource font = new FontUIResource(regular(20f));
