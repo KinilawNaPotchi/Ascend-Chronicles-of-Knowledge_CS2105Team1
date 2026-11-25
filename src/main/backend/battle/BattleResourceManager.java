@@ -126,15 +126,8 @@ public class BattleResourceManager {
     }
 
     String getCharacterName() {
-        Path playerFile = Path.of("saves", "player.json");
-        try (Reader playerReader = Files.newBufferedReader(playerFile)) {
-            JsonObject player = JsonParser.parseReader(playerReader).getAsJsonObject();
-            JsonElement savedName = player.get("characterName");
-            String characterName = savedName == null || savedName.isJsonNull() ? "" : savedName.getAsString();
-            return characterName.isBlank() ? "Main Character" : characterName;
-        } catch (IOException e) {
-            throw new UncheckedIOException("Could not read " + playerFile, e);
-        }
+        String name = new SaveManager().currentPlayer().characterName();
+        return name.isBlank() ? "Main Character" : name;
     }
 
     String getMcBeforeDialog(Category category, int bossNumber, String characterName) {

@@ -14,6 +14,8 @@ import static java.util.concurrent.TimeUnit.SECONDS;
  */
 public class BattleManager {
     private final BattleResourceManager resourceManager;
+    private final SaveManager saves;
+    private SaveManager.Player player;
     private final List<Integer> shownQuestionIds = new ArrayList<>();
     private final LongSupplier clock;
     private final Random random;
@@ -29,27 +31,35 @@ public class BattleManager {
     private long lastBurnUpdate;
 
     public BattleManager(BattleResourceManager resourceManager) {
-        this(resourceManager, System::nanoTime, new Random());
+        this(resourceManager, new SaveManager());
     }
 
-    BattleManager(BattleResourceManager resourceManager, LongSupplier clock, Random random) {
+    public BattleManager(BattleResourceManager resourceManager, SaveManager saves) {
+        this(resourceManager, saves, System::nanoTime, new Random());
+    }
+
+    BattleManager(BattleResourceManager resourceManager, SaveManager saves, LongSupplier clock, Random random) {
         this.resourceManager = resourceManager;
+        this.saves = saves;
         this.clock = clock;
         this.random = random;
     }
 
     /** Call battle commands and updateTime on one UI/event thread. */
-    public void startBattle(Category category, int bossNumber, BattleView view) {
+    public boolean startBattle(Category category, int bossNumber, BattleView view) {
+        player = saves.currentPlayer();
+        if (!saves.progress(category).allows(bossNumber)) return false;
         this.category = category;
         this.bossNumber = bossNumber;
         this.view = view;
         shownQuestionIds.clear();
-        characterName = resourceManager.getCharacterName();
-        health = new BattleHealth(characterName, category, bossNumber);
+        characterName = player.characterName();
+        health = new BattleHealth(characterName, player.level(), category, bossNumber);
         view.showDialogue(resourceManager.getBossBeforeDialog(category, bossNumber));
         view.showDialogue(resourceManager.getMcBeforeDialog(category, bossNumber, characterName));
         combat = new BattleCombat(health, random, view);
         showStatusAndNextQuestion();
+        return true;
     }
 
     private void showStatusAndNextQuestion() {
@@ -58,10 +68,12 @@ public class BattleManager {
             phase = Phase.FINISHED;
             String bossName = health.getBossName();
             boolean playerWon = health.isBossDefeated();
+            SaveManager.Victory victory = playerWon ? saves.recordVictory(player.saveId(), category, bossNumber) : null;
             view.showBattleEnd(bossName, playerWon);
             for (String dialogue : resourceManager.getEndDialogue(category, bossName, characterName, playerWon)) {
                 view.showDialogue(dialogue);
             }
+            if (victory != null && victory.shardAwarded()) view.showShard(victory.level());
             return;
         }
         question = questionSearch(category, bossNumber);
@@ -186,6 +198,7 @@ public class BattleManager {
         void showDialogue(String dialogue);
         void showStatus(Status status);
         void showBattleEnd(String bossName, boolean playerWon);
+        void showShard(int newLevel);
         void showPreview(String question);
         void showAnswerPrompt(List<String> choices);
         void showSkillPrompt();

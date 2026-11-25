@@ -1,6 +1,10 @@
 package terminalGame;
 
-import java.io.IOException;
+import java.io.UncheckedIOException;
+import java.util.Locale;
+import java.util.NoSuchElementException;
+import backend.battle.SaveManager;
+import backend.battle.Story;
 import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.ExecutionException;
@@ -63,15 +67,23 @@ public class TerminalGame implements BattleManager.BattleView {
 
     private static final BattleResourceManager resourceManager = new BattleResourceManager();
 
-    public static void main(String[] args){
-        titleFrame();
-        mainMenu();
+    private static final SaveManager saves = new SaveManager();
+
+    public static void main(String[] args) {
+        try {
+            titleFrame();
+            mainMenu();
+        } catch (NoSuchElementException endOfInput) {
+            // A closed terminal leaves unfinished scenes available for the next login.
+        } catch (UncheckedIOException e) {
+            System.err.println(e.getMessage());
+        }
     }
 
     public static void titleFrame(){
         System.out.println("```ASCEND```");
         System.out.println("------------");
-        if (!PlayerAccount.accountExists()) {
+        if (!saves.accountExists()) {
             createAccount(false);
             return;
         }
@@ -98,14 +110,35 @@ public class TerminalGame implements BattleManager.BattleView {
         String username = readMenuLine();
         System.out.print("age: ");
         int age = Integer.parseInt(readMenuLine().trim());
-        System.out.print("character name: ");
-        String characterName = readMenuLine();
+        saves.newGame(username, age, "", replaceExistingSave);
+    }
 
-        try {
-            PlayerAccount.createAccount(username, age, characterName, replaceExistingSave);
-        } catch (IOException e) {
-            System.err.println("Could not save your account: " + e.getMessage());
+    private static boolean showPendingStory() {
+        SaveManager.Player player = saves.currentPlayer();
+        Story.Scene scene = player.pendingScene();
+        if (scene == Story.Scene.NONE) return true;
+        for (Story.Line line : Story.lines(scene)) {
+            System.out.println(line.text());
+            if (line.asksForName() && player.characterName().isBlank()) {
+                while (true) {
+                    System.out.print("Character name: ");
+                    try {
+                        saves.saveName(readMenuLine());
+                        break;
+                    } catch (IllegalArgumentException e) {
+                        System.out.println(e.getMessage());
+                    }
+                }
+            }
+            try {
+                TimeUnit.SECONDS.sleep(3);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return false;
+            }
         }
+        saves.completeScene(scene);
+        return true;
     }
 
     public static void play(){
@@ -116,60 +149,61 @@ public class TerminalGame implements BattleManager.BattleView {
         System.out.println("[2] PROGRAMMING");
         System.out.println("[3] SCIENCE");
         System.out.print("choice: ");
-        char choice = readMenuLine().charAt(0);
-
-        switch (choice) {
-            case '1' -> bossChoice(Category.MATHEMATICS);
-            case '2' -> bossChoice(Category.PROGRAMMING);
-            case '3' -> bossChoice(Category.SCIENCE);
+        switch (readMenuLine().trim()) {
+            case "1" -> bossChoice(Category.MATHEMATICS);
+            case "2" -> bossChoice(Category.PROGRAMMING);
+            case "3" -> bossChoice(Category.SCIENCE);
             default -> System.out.println("Wrong input");
         }
     }
 
-    public static void mainMenu(){
-        System.out.println("\n----------");
-        System.out.println("MAIN MENU");
-        System.out.println("---------");
-        System.out.println("[1] PlAY");
-        System.out.println("[2] SETTINGS");
-        System.out.println("[3] PROFILE");
-        System.out.println("[4] ABOUT US");
-        System.out.print("choose: ");
-        char choice = readMenuLine().charAt(0);
-        switch (choice){
-            case '1':
-                play();
-                break;
-            case '2':
-            case '3':
-            case '4':
-            default:
-                System.out.println("Wrong choice");
+    public static void mainMenu() {
+        while (showPendingStory()) {
+            System.out.println("\n----------");
+            System.out.println("MAIN MENU");
+            System.out.println("---------");
+            System.out.println("[1] PLAY");
+            System.out.println("[2] SETTINGS");
+            System.out.println("[3] PROFILE");
+            System.out.println("[4] ABOUT US");
+            System.out.println("[0] EXIT");
+            System.out.print("choose: ");
+            switch (readMenuLine().trim()) {
+                case "1" -> play();
+                case "0" -> { return; }
+                default -> System.out.println("Wrong choice");
+            }
         }
-
     }
 
-    public static void bossChoice(Category category){
+    public static void bossChoice(Category category) {
         System.out.println("\n----------");
         System.out.println(category);
         System.out.println("---------");
         List<Boss> bosses = new BossManager().getBosses(category);
-        for (int index = 0; index < bosses.size(); index++) {
-            System.out.printf("[%d] %s%n", index + 1, bosses.get(index).getName());
-        }
-        System.out.print("choice: ");
-        char choice = readMenuLine().charAt(0);
-
-
-        switch (choice) {
-            case '1', '2', '3' -> {
-                int bossNumber = choice - '0';
-                BattleManager battle = new BattleManager(resourceManager);
-                battle.startBattle(category, bossNumber, new TerminalGame());
-                runBattle(battle);
+        while (true) {
+            SaveManager.BossProgress progress = saves.progress(category);
+            for (int index = 0; index < bosses.size(); index++) {
+                int number = index + 1;
+                System.out.printf("[%d] %s%s%n", number, bosses.get(index).getName(),
+                        progress.allows(number) ? "" : " (locked)");
             }
-            default ->
+            System.out.println("[0] Back");
+            System.out.print("choice: ");
+            String choice = readMenuLine().trim();
+            if (choice.equals("0")) return;
+            if (!List.of("1", "2", "3").contains(choice)) {
                 System.out.println("Wrong input");
+                continue;
+            }
+            int number = Integer.parseInt(choice);
+            BattleManager battle = new BattleManager(resourceManager, saves);
+            if (battle.startBattle(category, number, new TerminalGame())) {
+                runBattle(battle);
+                return;
+            }
+            String name = category.name().charAt(0) + category.name().substring(1).toLowerCase(Locale.ROOT);
+            System.out.printf("Defeat Boss %d in %s to unlock Boss %d.%n", number - 1, name, number);
         }
     }
 
@@ -220,6 +254,11 @@ public class TerminalGame implements BattleManager.BattleView {
     @Override
     public void showBattleEnd(String bossName, boolean playerWon) {
         System.out.println(playerWon ? "You defeated " + bossName + "!" : bossName + " defeated you.");
+    }
+
+    @Override
+    public void showShard(int newLevel) {
+        System.out.printf("A shard was obtained! Your character is now level %d.%n", newLevel);
     }
 
     @Override
