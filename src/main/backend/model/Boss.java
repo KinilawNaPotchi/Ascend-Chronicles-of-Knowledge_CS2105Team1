@@ -5,8 +5,8 @@ public class Boss extends Character{
     private Category category;
     private boolean finalBoss;
 
-    public Boss (String name, int maxHP, int currentHP, Category category, boolean finalBoss){
-        super(name, maxHP, currentHP);
+    public Boss (String name, int currentHP, Category category, boolean finalBoss){
+        super(name, currentHP);
         this.category = category;
         this.finalBoss = finalBoss;
     }

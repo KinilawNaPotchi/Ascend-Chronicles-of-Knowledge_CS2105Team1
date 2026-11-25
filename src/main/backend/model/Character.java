@@ -6,10 +6,10 @@ public class Character {
     private int maxHP;
     private int currentHP;
 
-    public Character(String name, int maxHP, int currentHP){
+    public Character(String name, int currentHP){
         this.name = name;
-        this.maxHP = maxHP;
-        this.currentHP = currentHP;
+        this.maxHP = 100;
+        this.currentHP = Math.max(0, Math.min(maxHP, currentHP));
     }
 
     public String getName(){
@@ -28,14 +28,15 @@ public class Character {
         return currentHP > 0;
     }
 
-    public void takeDamage(int damage){
+    public int takeDamage(int damage) {
+        int lost = Math.min(currentHP, Math.max(0, damage));
+        currentHP -= lost;
+        return lost;
+    }
 
-        currentHP -= damage;
-
-        if (currentHP < 0) {
-            currentHP = 0;
-        }
-
-
+    public int heal(int amount) {
+        int recovered = Math.min(maxHP - currentHP, Math.max(0, amount));
+        currentHP += recovered;
+        return recovered;
     }
 }
