@@ -22,6 +22,7 @@ public class TitleScreenPanel extends JPanel {
                         + "</div></html>",
                 SwingConstants.CENTER
         );
+
         title.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 32));
         title.setForeground(Color.WHITE);
         add(title, BorderLayout.CENTER);
