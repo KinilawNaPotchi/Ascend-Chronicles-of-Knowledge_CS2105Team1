@@ -4,16 +4,19 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import javax.imageio.ImageIO;
 
 public class TitleScreenPanel extends JPanel {
+
+    private BufferedImage backgroundImage;
 
     public TitleScreenPanel(Runnable onAdvance) {
         setLayout(new BorderLayout());
         setBorder(BorderFactory.createEmptyBorder(24, 32, 24, 32));
 
-        // TODO: TITLE SCREEN BACKGROUND PLACEHOLDER
-        // Use the navy background until Endrea's artwork is ready.
-        setBackground(new Color(15, 19, 49));
+        loadBackgroundImage();
 
         JLabel title = new JLabel(
                 "<html><div style='text-align:center'>"
@@ -27,7 +30,11 @@ public class TitleScreenPanel extends JPanel {
         title.setForeground(Color.WHITE);
         add(title, BorderLayout.CENTER);
 
-        JLabel prompt = new JLabel("Tap anywhere", SwingConstants.RIGHT);
+        JLabel prompt = new JLabel(
+                "Tap anywhere",
+                SwingConstants.RIGHT
+        );
+
         prompt.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 16));
         prompt.setForeground(new Color(204, 210, 255));
         add(prompt, BorderLayout.SOUTH);
@@ -46,6 +53,7 @@ public class TitleScreenPanel extends JPanel {
         prompt.addMouseListener(advanceOnClick);
 
         InputMap keys = getInputMap(WHEN_IN_FOCUSED_WINDOW);
+
         keys.put(KeyStroke.getKeyStroke("ENTER"), "advance");
         keys.put(KeyStroke.getKeyStroke("SPACE"), "advance");
 
@@ -55,5 +63,60 @@ public class TitleScreenPanel extends JPanel {
                 onAdvance.run();
             }
         });
+    }
+
+    private void loadBackgroundImage() {
+        try {
+            File imageFile = new File(
+                    "resources/assets/backgrounds/openingBg.png"
+            );
+
+            backgroundImage = ImageIO.read(imageFile);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+
+        if (backgroundImage == null) {
+            return;
+        }
+
+        Graphics2D g2 = (Graphics2D) g.create();
+
+        int panelWidth = getWidth();
+        int panelHeight = getHeight();
+
+        double scaleX =
+                (double) panelWidth / backgroundImage.getWidth();
+
+        double scaleY =
+                (double) panelHeight / backgroundImage.getHeight();
+
+        double scale = Math.max(scaleX, scaleY);
+
+        int scaledWidth =
+                (int) (backgroundImage.getWidth() * scale);
+
+        int scaledHeight =
+                (int) (backgroundImage.getHeight() * scale);
+
+        int x = (panelWidth - scaledWidth) / 2;
+        int y = (panelHeight - scaledHeight) / 2;
+
+        g2.drawImage(
+                backgroundImage,
+                x,
+                y,
+                scaledWidth,
+                scaledHeight,
+                null
+        );
+
+        g2.dispose();
     }
 }

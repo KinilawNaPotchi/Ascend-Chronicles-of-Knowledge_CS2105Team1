@@ -11,11 +11,11 @@ import java.net.URL;
 import java.util.prefs.Preferences;
 
 public final class MainMenuPanel extends JPanel {
-    private static final String ART = "/assets/ui/main-menu/";
+    private static final String ART = "src/main/Frontend/assets/";
 
     // ANDENG_PLAYER_PORTRAIT
     // Add Andeng's portrait to resources/assets/ui/main-menu/player-portrait.png
-    private final BufferedImage portrait = loadImage(ART + "player-portrait.png");
+    private final BufferedImage portrait = loadImage(ART + "backgrounds/openingBg.png");
 
     // ANDENG_MENU_BACKGROUND
     // Add Andeng's background to resources/assets/ui/main-menu/menu-background.png
